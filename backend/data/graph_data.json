@@ -1,1121 +1,999 @@
 {
   "nodes": [
     {
-      "id": "alice@startup.com",
-      "type": "person",
-      "messages_sent": 4
-    },
-    {
-      "id": "bob@startup.com",
+      "id": "kenneth.lay@enron.com",
       "type": "person",
       "messages_sent": 2
     },
     {
-      "id": "carol@startup.com",
+      "id": "jeff.skilling@enron.com",
       "type": "person",
       "messages_sent": 3
     },
     {
-      "id": "product launch",
+      "id": "andrew.fastow@enron.com",
+      "type": "person",
+      "messages_sent": 2
+    },
+    {
+      "id": "q3 earnings presentation",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "marketing campaign",
-      "type": "topic",
-      "mention_count": 3
-    },
-    {
-      "id": "landing page",
-      "type": "topic",
-      "mention_count": 2
-    },
-    {
-      "id": "product spec document",
+      "id": "ebs revenue numbers",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "Marketing",
+      "id": "analyst communication",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "spe financial summary",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "broadband strategy",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Andrew Fastow",
       "type": "person",
       "messages_sent": 0
     },
     {
-      "id": "task: Start the campaign",
+      "id": "task: Prepare the SPE financial summary",
       "type": "action_item",
-      "owner": "Marketing",
-      "deadline": "2025-02-20"
+      "owner": "Andrew Fastow",
+      "deadline": "Before the board meeting next week"
     },
     {
-      "id": "Bob",
+      "id": "Jeff Skilling",
       "type": "person",
       "messages_sent": 0
     },
     {
-      "id": "task: Finalize the landing page",
+      "id": "task: Prepare talking points on broadband strategy",
       "type": "action_item",
-      "owner": "Bob",
-      "deadline": "2025-02-25"
+      "owner": "Jeff Skilling",
+      "deadline": "Before the board meeting next week"
     },
     {
-      "id": "final copy",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "api specs",
-      "type": "topic",
-      "mention_count": 3
-    },
-    {
-      "id": "pricing calculator",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Complete landing page",
-      "type": "action_item",
-      "owner": "Bob",
-      "deadline": "2025-02-25"
-    },
-    {
-      "id": "dave@startup.com",
+      "id": "rebecca.mark@enron.com",
       "type": "person",
       "messages_sent": 1
     },
     {
-      "id": "campaign strategy for product launch",
+      "id": "broadband division",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "social media push",
+      "id": "content deals",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "budget concerns",
+      "id": "q4 revenue projections",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "Dave",
+      "id": "azurix water project",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "international operations",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "california energy situation",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Rebecca Mark",
       "type": "person",
       "messages_sent": 0
     },
     {
-      "id": "task: Prepare content calendar",
+      "id": "task: Provide Azurix water project numbers",
       "type": "action_item",
-      "owner": "Dave",
-      "deadline": "2025-01-20"
+      "owner": "Rebecca Mark",
+      "deadline": "2001-06-20"
     },
     {
-      "id": "Carol",
+      "id": "ben.glisan@enron.com",
       "type": "person",
       "messages_sent": 0
     },
     {
-      "id": "task: Finalize ad creatives",
-      "type": "action_item",
-      "owner": "Carol",
-      "deadline": "2025-01-25"
-    },
-    {
-      "id": "campaign copy",
+      "id": "spe summary",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "shared drive folder",
+      "id": "ljm2 partnership performance",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "launch date",
-      "type": "topic",
-      "mention_count": 2
-    },
-    {
-      "id": "content calendar",
-      "type": "topic",
-      "mention_count": 2
-    },
-    {
-      "id": "task: Confirm launch date with Alice",
-      "type": "action_item",
-      "owner": "Carol",
-      "deadline": null
-    },
-    {
-      "id": "eve@startup.com",
-      "type": "person",
-      "messages_sent": 3
-    },
-    {
-      "id": "frank@startup.com",
-      "type": "person",
-      "messages_sent": 2
-    },
-    {
-      "id": "client feedback on beta",
+      "id": "raptor vehicles risk management",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "payment flow testing",
+      "id": "debt-to-equity ratio",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "sso integration",
+      "id": "operating cash flow",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "ux rating",
+      "id": "analyst call",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "launch timeline",
-      "type": "topic",
-      "mention_count": 2
-    },
-    {
-      "id": "Frank",
+      "id": "all",
       "type": "person",
       "messages_sent": 0
     },
     {
-      "id": "task: Complete payment integration",
+      "id": "task: Align on talking points before the analyst call",
       "type": "action_item",
-      "owner": "Frank",
-      "deadline": "2025-01-28"
+      "owner": "all",
+      "deadline": null
     },
     {
-      "id": "payment integration",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "stripe api",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "engineering roadmap",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "engineering team",
+      "id": "vince.kaminski@enron.com",
       "type": "person",
-      "messages_sent": 0
+      "messages_sent": 1
     },
     {
-      "id": "task: Rewrite the handler for Stripe API webhook format",
-      "type": "action_item",
-      "owner": "engineering team",
-      "deadline": "2025-03-30"
-    },
-    {
-      "id": "launch date decision",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "budget",
+      "id": "risk assessment",
       "type": "topic",
       "mention_count": 2
     },
     {
-      "id": "engineering timeline",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "client feedback",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Deliver final build",
-      "type": "action_item",
-      "owner": "Frank",
-      "deadline": "March 28"
-    },
-    {
-      "id": "task: Update landing page",
-      "type": "action_item",
-      "owner": "Bob",
-      "deadline": "March 25"
-    },
-    {
-      "id": "Eve",
-      "type": "person",
-      "messages_sent": 0
-    },
-    {
-      "id": "task: Notify beta clients of new timeline",
-      "type": "action_item",
-      "owner": "Eve",
-      "deadline": null
-    },
-    {
-      "id": "task: Revise campaign schedule",
-      "type": "action_item",
-      "owner": "Carol",
-      "deadline": null
-    },
-    {
-      "id": "task: Update content calendar",
-      "type": "action_item",
-      "owner": "Dave",
-      "deadline": null
-    },
-    {
-      "id": "campaign timeline",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "campaign strategy deck",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: revise the content calendar",
-      "type": "action_item",
-      "owner": "dave@startup.com",
-      "deadline": "2025-01-22"
-    },
-    {
-      "id": "task: update the Campaign Strategy Deck with new dates",
-      "type": "action_item",
-      "owner": "dave@startup.com",
-      "deadline": null
-    },
-    {
-      "id": "pricing page",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "calculator widget",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "/api/pricing endpoint",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Send final API specs for the pricing page",
-      "type": "action_item",
-      "owner": "frank@startup.com",
-      "deadline": "2025-01-20"
-    },
-    {
-      "id": "new enterprise client interest",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "demo request",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "feature requests",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "deal tracker",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Prioritize GlobalCorp's feature requests",
-      "type": "action_item",
-      "owner": "Eve",
-      "deadline": null
-    },
-    {
-      "id": "enterprise leads",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "pre-launch demos",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "sso implementation",
+      "id": "california energy market",
       "type": "topic",
       "mention_count": 2
     },
     {
-      "id": "q2 revenue targets",
+      "id": "price volatility",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "task: Provide realistic timeline for SSO implementation",
+      "id": "regulatory intervention",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "political risk",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "trading strategies",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Vince Kaminski",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Reduce position by 40%",
       "type": "action_item",
-      "owner": "frank@startup.com",
+      "owner": "Vince Kaminski",
+      "deadline": "2001-07-01"
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "type": "person",
+      "messages_sent": 1
+    },
+    {
+      "id": "trading strategy",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Review Vince's analysis",
+      "type": "action_item",
+      "owner": "john.lavorato@enron.com",
       "deadline": null
     },
     {
-      "id": "enterprise client demands",
+      "id": "sherron.watkins@enron.com",
+      "type": "person",
+      "messages_sent": 1
+    },
+    {
+      "id": "accounting scandals",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "task: Implement minimal SSO covering SAML basics",
+      "id": "raptor structures",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "related-party transactions",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "ljm",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "sec filing",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Kenneth Lay",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Conduct an independent review of Raptor structures",
       "type": "action_item",
-      "owner": "Frank",
-      "deadline": "2025-02-01"
+      "owner": "Kenneth Lay",
+      "deadline": "Before next SEC filing"
     },
     {
-      "id": "task: Set expectations with clients regarding SSO",
+      "id": "james.derrick@enron.com",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "accounting concerns",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "ljm structures",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "confidentiality",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Review the attached concerns raised by Sherron Wat",
       "type": "action_item",
-      "owner": "Eve",
-      "deadline": "2025-01-25"
-    },
-    {
-      "id": "sso for enterprise clients",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "enterprise clients pipeline",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "landing page development",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "runway and arr goals",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Work on minimal SSO for enterprise clients",
-      "type": "action_item",
-      "owner": "Frank",
+      "owner": "james.derrick@enron.com",
       "deadline": null
     },
     {
-      "id": "task: Start marketing campaign",
+      "id": "task: Prepare a detailed response to each of Sherron Wat",
       "type": "action_item",
-      "owner": "Dave",
-      "deadline": "2025-03-10"
-    },
-    {
-      "id": "task: Prioritize API specs for Bob's landing page",
-      "type": "action_item",
-      "owner": "Frank",
+      "owner": "andrew.fastow@enron.com",
       "deadline": null
     },
     {
-      "id": "campaign strategy",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "timeline",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "budget allocation",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "kpis",
-      "type": "topic",
-      "mention_count": 1
-    },
-    {
-      "id": "task: Update Campaign Strategy Deck",
+      "id": "task: Schedule a meeting for next Monday to discuss",
       "type": "action_item",
-      "owner": "carol@startup.com",
-      "deadline": "2025-03-10"
+      "owner": "kenneth.lay@enron.com",
+      "deadline": null
     },
     {
-      "id": "pricing endpoint",
+      "id": "buenos aires water concession underperformance",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "webhook spec",
+      "id": "uk operations stability",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "subscription changes",
+      "id": "capital injection requirement",
       "type": "topic",
       "mention_count": 1
     },
     {
-      "id": "stripe webhook issue",
+      "id": "strategic options for buenos aires asset",
       "type": "topic",
       "mention_count": 1
+    },
+    {
+      "id": "task: Consider strategic options including potential sal",
+      "type": "action_item",
+      "owner": "Rebecca Mark",
+      "deadline": null
+    },
+    {
+      "id": "greg.whalley@enron.com",
+      "type": "person",
+      "messages_sent": 1
+    },
+    {
+      "id": "natural gas trading revenue",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "power trading in california",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "regulatory risk",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "crude oil desk loss",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "credit rating concerns",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Tim",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Review the $12M loss on a bad hedge",
+      "type": "action_item",
+      "owner": "Tim",
+      "deadline": null
+    },
+    {
+      "id": "ExCo",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Discuss the credit situation",
+      "type": "action_item",
+      "owner": "ExCo",
+      "deadline": "Next ExCo meeting"
+    },
+    {
+      "id": "credit rating review by moody's",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "off-balance-sheet obligations in spes",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "declining stock price affecting raptor triggers",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "california regulatory exposure",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "azurix write-down potential",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Present a clear picture of actual financial obliga",
+      "type": "action_item",
+      "owner": "Andrew Fastow",
+      "deadline": "Next week"
+    },
+    {
+      "id": "credit rating",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "spe obligations",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "stock price",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "raptor restructuring",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "ljm transactions",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "arthur andersen",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Prepare presentation for Moody's",
+      "type": "action_item",
+      "owner": "Andrew Fastow",
+      "deadline": "2001-10-25"
+    },
+    {
+      "id": "Ben Glisan",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Run scenarios for various stock price levels",
+      "type": "action_item",
+      "owner": "Ben Glisan",
+      "deadline": null
+    },
+    {
+      "id": "task: Work with Arthur Andersen on LJM transactions rest",
+      "type": "action_item",
+      "owner": "Andrew Fastow",
+      "deadline": null
+    },
+    {
+      "id": "resignation",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "transition",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "interim leadership",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Assist with the transition",
+      "type": "action_item",
+      "owner": "Jeff Skilling",
+      "deadline": null
     }
   ],
   "edges": [
     {
-      "source": "alice@startup.com",
-      "target": "bob@startup.com",
+      "source": "kenneth.lay@enron.com",
+      "target": "jeff.skilling@enron.com",
       "type": "communication",
-      "weight": 3
+      "weight": 1
     },
     {
-      "source": "alice@startup.com",
-      "target": "carol@startup.com",
-      "type": "communication",
-      "weight": 3
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "product launch",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "marketing campaign",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "landing page",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "product spec document",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "dave@startup.com",
+      "source": "kenneth.lay@enron.com",
+      "target": "andrew.fastow@enron.com",
       "type": "communication",
       "weight": 2
     },
     {
-      "source": "alice@startup.com",
-      "target": "eve@startup.com",
-      "type": "communication",
-      "weight": 3
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "frank@startup.com",
-      "type": "communication",
-      "weight": 3
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "launch date decision",
+      "source": "kenneth.lay@enron.com",
+      "target": "q3 earnings presentation",
       "type": "discusses"
     },
     {
-      "source": "alice@startup.com",
-      "target": "budget",
+      "source": "kenneth.lay@enron.com",
+      "target": "ebs revenue numbers",
       "type": "discusses"
     },
     {
-      "source": "alice@startup.com",
-      "target": "engineering timeline",
+      "source": "kenneth.lay@enron.com",
+      "target": "analyst communication",
       "type": "discusses"
     },
     {
-      "source": "alice@startup.com",
-      "target": "client feedback",
+      "source": "kenneth.lay@enron.com",
+      "target": "spe financial summary",
       "type": "discusses"
     },
     {
-      "source": "alice@startup.com",
-      "target": "enterprise client demands",
+      "source": "kenneth.lay@enron.com",
+      "target": "broadband strategy",
       "type": "discusses"
     },
     {
-      "source": "alice@startup.com",
-      "target": "launch timeline",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "sso implementation",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "launch date",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "sso for enterprise clients",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "enterprise clients pipeline",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "landing page development",
-      "type": "discusses"
-    },
-    {
-      "source": "alice@startup.com",
-      "target": "runway and arr goals",
-      "type": "discusses"
-    },
-    {
-      "source": "bob@startup.com",
-      "target": "alice@startup.com",
+      "source": "kenneth.lay@enron.com",
+      "target": "james.derrick@enron.com",
       "type": "communication",
       "weight": 1
     },
     {
-      "source": "bob@startup.com",
-      "target": "landing page",
+      "source": "kenneth.lay@enron.com",
+      "target": "accounting concerns",
       "type": "discusses"
     },
     {
-      "source": "bob@startup.com",
-      "target": "final copy",
+      "source": "kenneth.lay@enron.com",
+      "target": "raptor structures",
       "type": "discusses"
     },
     {
-      "source": "bob@startup.com",
-      "target": "api specs",
+      "source": "kenneth.lay@enron.com",
+      "target": "ljm structures",
       "type": "discusses"
     },
     {
-      "source": "bob@startup.com",
-      "target": "pricing calculator",
+      "source": "kenneth.lay@enron.com",
+      "target": "confidentiality",
       "type": "discusses"
     },
     {
-      "source": "bob@startup.com",
-      "target": "frank@startup.com",
-      "type": "communication",
-      "weight": 1
+      "source": "kenneth.lay@enron.com",
+      "target": "task: Schedule a meeting for next Monday to discuss",
+      "type": "assigned_to"
     },
     {
-      "source": "bob@startup.com",
-      "target": "pricing page",
-      "type": "discusses"
-    },
-    {
-      "source": "bob@startup.com",
-      "target": "calculator widget",
-      "type": "discusses"
-    },
-    {
-      "source": "bob@startup.com",
-      "target": "/api/pricing endpoint",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "alice@startup.com",
+      "source": "jeff.skilling@enron.com",
+      "target": "kenneth.lay@enron.com",
       "type": "communication",
       "weight": 2
     },
     {
-      "source": "carol@startup.com",
-      "target": "bob@startup.com",
+      "source": "jeff.skilling@enron.com",
+      "target": "rebecca.mark@enron.com",
       "type": "communication",
       "weight": 1
     },
     {
-      "source": "carol@startup.com",
-      "target": "dave@startup.com",
-      "type": "communication",
-      "weight": 3
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "campaign strategy for product launch",
+      "source": "jeff.skilling@enron.com",
+      "target": "broadband division",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "social media push",
+      "source": "jeff.skilling@enron.com",
+      "target": "content deals",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "budget concerns",
+      "source": "jeff.skilling@enron.com",
+      "target": "q4 revenue projections",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "campaign timeline",
+      "source": "jeff.skilling@enron.com",
+      "target": "azurix water project",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "content calendar",
+      "source": "jeff.skilling@enron.com",
+      "target": "international operations",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "budget",
+      "source": "jeff.skilling@enron.com",
+      "target": "california energy situation",
       "type": "discusses"
     },
     {
-      "source": "carol@startup.com",
-      "target": "campaign strategy deck",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "campaign strategy",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "timeline",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "budget allocation",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "kpis",
-      "type": "discusses"
-    },
-    {
-      "source": "carol@startup.com",
-      "target": "task: Update Campaign Strategy Deck",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Marketing",
-      "target": "task: Start the campaign",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Bob",
-      "target": "task: Finalize the landing page",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Bob",
-      "target": "task: Complete landing page",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Bob",
-      "target": "task: Update landing page",
-      "type": "assigned_to"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "carol@startup.com",
+      "source": "jeff.skilling@enron.com",
+      "target": "vince.kaminski@enron.com",
       "type": "communication",
       "weight": 1
     },
     {
-      "source": "dave@startup.com",
-      "target": "campaign copy",
-      "type": "discusses"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "shared drive folder",
-      "type": "discusses"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "launch date",
-      "type": "discusses"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "content calendar",
-      "type": "discusses"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "task: revise the content calendar",
-      "type": "assigned_to"
-    },
-    {
-      "source": "dave@startup.com",
-      "target": "task: update the Campaign Strategy Deck with new dates",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Dave",
-      "target": "task: Prepare content calendar",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Dave",
-      "target": "task: Update content calendar",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Dave",
-      "target": "task: Start marketing campaign",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Carol",
-      "target": "task: Finalize ad creatives",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Carol",
-      "target": "task: Confirm launch date with Alice",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Carol",
-      "target": "task: Revise campaign schedule",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Carol",
-      "target": "task: Start marketing campaign",
-      "type": "assigned_to"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "alice@startup.com",
+      "source": "jeff.skilling@enron.com",
+      "target": "john.lavorato@enron.com",
       "type": "communication",
-      "weight": 3
+      "weight": 1
     },
     {
-      "source": "eve@startup.com",
-      "target": "frank@startup.com",
+      "source": "jeff.skilling@enron.com",
+      "target": "risk assessment",
+      "type": "discusses"
+    },
+    {
+      "source": "jeff.skilling@enron.com",
+      "target": "california energy market",
+      "type": "discusses"
+    },
+    {
+      "source": "jeff.skilling@enron.com",
+      "target": "trading strategy",
+      "type": "discusses"
+    },
+    {
+      "source": "jeff.skilling@enron.com",
+      "target": "resignation",
+      "type": "discusses"
+    },
+    {
+      "source": "jeff.skilling@enron.com",
+      "target": "transition",
+      "type": "discusses"
+    },
+    {
+      "source": "jeff.skilling@enron.com",
+      "target": "interim leadership",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "kenneth.lay@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "jeff.skilling@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "ben.glisan@enron.com",
       "type": "communication",
       "weight": 2
     },
     {
-      "source": "eve@startup.com",
-      "target": "client feedback on beta",
+      "source": "andrew.fastow@enron.com",
+      "target": "spe summary",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "payment flow testing",
+      "source": "andrew.fastow@enron.com",
+      "target": "ljm2 partnership performance",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "sso integration",
+      "source": "andrew.fastow@enron.com",
+      "target": "raptor vehicles risk management",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "ux rating",
+      "source": "andrew.fastow@enron.com",
+      "target": "debt-to-equity ratio",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "launch timeline",
+      "source": "andrew.fastow@enron.com",
+      "target": "operating cash flow",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "new enterprise client interest",
+      "source": "andrew.fastow@enron.com",
+      "target": "analyst call",
       "type": "discusses"
     },
     {
-      "source": "eve@startup.com",
-      "target": "demo request",
-      "type": "discusses"
+      "source": "andrew.fastow@enron.com",
+      "target": "task: Prepare a detailed response to each of Sherron Wat",
+      "type": "assigned_to"
     },
     {
-      "source": "eve@startup.com",
-      "target": "feature requests",
-      "type": "discusses"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "deal tracker",
-      "type": "discusses"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "enterprise leads",
-      "type": "discusses"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "pre-launch demos",
-      "type": "discusses"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "sso implementation",
-      "type": "discusses"
-    },
-    {
-      "source": "eve@startup.com",
-      "target": "q2 revenue targets",
-      "type": "discusses"
-    },
-    {
-      "source": "frank@startup.com",
-      "target": "alice@startup.com",
+      "source": "andrew.fastow@enron.com",
+      "target": "greg.whalley@enron.com",
       "type": "communication",
       "weight": 1
     },
     {
-      "source": "frank@startup.com",
-      "target": "bob@startup.com",
+      "source": "andrew.fastow@enron.com",
+      "target": "credit rating",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "spe obligations",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "stock price",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "raptor restructuring",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "ljm transactions",
+      "type": "discusses"
+    },
+    {
+      "source": "andrew.fastow@enron.com",
+      "target": "arthur andersen",
+      "type": "discusses"
+    },
+    {
+      "source": "Andrew Fastow",
+      "target": "task: Prepare the SPE financial summary",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Andrew Fastow",
+      "target": "task: Present a clear picture of actual financial obliga",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Andrew Fastow",
+      "target": "task: Prepare presentation for Moody's",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Andrew Fastow",
+      "target": "task: Work with Arthur Andersen on LJM transactions rest",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Jeff Skilling",
+      "target": "task: Prepare talking points on broadband strategy",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Jeff Skilling",
+      "target": "task: Assist with the transition",
+      "type": "assigned_to"
+    },
+    {
+      "source": "rebecca.mark@enron.com",
+      "target": "jeff.skilling@enron.com",
       "type": "communication",
-      "weight": 2
+      "weight": 1
     },
     {
-      "source": "frank@startup.com",
-      "target": "payment integration",
+      "source": "rebecca.mark@enron.com",
+      "target": "kenneth.lay@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "rebecca.mark@enron.com",
+      "target": "buenos aires water concession underperformance",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "stripe api",
+      "source": "rebecca.mark@enron.com",
+      "target": "uk operations stability",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "engineering roadmap",
+      "source": "rebecca.mark@enron.com",
+      "target": "capital injection requirement",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "task: Send final API specs for the pricing page",
-      "type": "assigned_to"
-    },
-    {
-      "source": "frank@startup.com",
-      "target": "task: Provide realistic timeline for SSO implementation",
-      "type": "assigned_to"
-    },
-    {
-      "source": "frank@startup.com",
-      "target": "api specs",
+      "source": "rebecca.mark@enron.com",
+      "target": "strategic options for buenos aires asset",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "pricing endpoint",
+      "source": "Rebecca Mark",
+      "target": "task: Provide Azurix water project numbers",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Rebecca Mark",
+      "target": "task: Consider strategic options including potential sal",
+      "type": "assigned_to"
+    },
+    {
+      "source": "all",
+      "target": "task: Align on talking points before the analyst call",
+      "type": "assigned_to"
+    },
+    {
+      "source": "vince.kaminski@enron.com",
+      "target": "jeff.skilling@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "vince.kaminski@enron.com",
+      "target": "risk assessment",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "webhook spec",
+      "source": "vince.kaminski@enron.com",
+      "target": "california energy market",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "subscription changes",
+      "source": "vince.kaminski@enron.com",
+      "target": "price volatility",
       "type": "discusses"
     },
     {
-      "source": "frank@startup.com",
-      "target": "stripe webhook issue",
+      "source": "vince.kaminski@enron.com",
+      "target": "regulatory intervention",
       "type": "discusses"
     },
     {
-      "source": "Frank",
-      "target": "task: Complete payment integration",
+      "source": "vince.kaminski@enron.com",
+      "target": "political risk",
+      "type": "discusses"
+    },
+    {
+      "source": "vince.kaminski@enron.com",
+      "target": "trading strategies",
+      "type": "discusses"
+    },
+    {
+      "source": "Vince Kaminski",
+      "target": "task: Reduce position by 40%",
       "type": "assigned_to"
     },
     {
-      "source": "Frank",
-      "target": "task: Deliver final build",
+      "source": "john.lavorato@enron.com",
+      "target": "task: Review Vince's analysis",
       "type": "assigned_to"
     },
     {
-      "source": "Frank",
-      "target": "task: Implement minimal SSO covering SAML basics",
+      "source": "john.lavorato@enron.com",
+      "target": "jeff.skilling@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "greg.whalley@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "natural gas trading revenue",
+      "type": "discusses"
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "power trading in california",
+      "type": "discusses"
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "regulatory risk",
+      "type": "discusses"
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "crude oil desk loss",
+      "type": "discusses"
+    },
+    {
+      "source": "john.lavorato@enron.com",
+      "target": "credit rating concerns",
+      "type": "discusses"
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "kenneth.lay@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "accounting scandals",
+      "type": "discusses"
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "raptor structures",
+      "type": "discusses"
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "related-party transactions",
+      "type": "discusses"
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "ljm",
+      "type": "discusses"
+    },
+    {
+      "source": "sherron.watkins@enron.com",
+      "target": "sec filing",
+      "type": "discusses"
+    },
+    {
+      "source": "Kenneth Lay",
+      "target": "task: Conduct an independent review of Raptor structures",
       "type": "assigned_to"
     },
     {
-      "source": "Frank",
-      "target": "task: Work on minimal SSO for enterprise clients",
+      "source": "james.derrick@enron.com",
+      "target": "task: Review the attached concerns raised by Sherron Wat",
       "type": "assigned_to"
     },
     {
-      "source": "Frank",
-      "target": "task: Prioritize API specs for Bob's landing page",
+      "source": "greg.whalley@enron.com",
+      "target": "kenneth.lay@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "jeff.skilling@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "andrew.fastow@enron.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "credit rating review by moody's",
+      "type": "discusses"
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "off-balance-sheet obligations in spes",
+      "type": "discusses"
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "declining stock price affecting raptor triggers",
+      "type": "discusses"
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "california regulatory exposure",
+      "type": "discusses"
+    },
+    {
+      "source": "greg.whalley@enron.com",
+      "target": "azurix write-down potential",
+      "type": "discusses"
+    },
+    {
+      "source": "Tim",
+      "target": "task: Review the $12M loss on a bad hedge",
       "type": "assigned_to"
     },
     {
-      "source": "engineering team",
-      "target": "task: Rewrite the handler for Stripe API webhook format",
+      "source": "ExCo",
+      "target": "task: Discuss the credit situation",
       "type": "assigned_to"
     },
     {
-      "source": "Eve",
-      "target": "task: Notify beta clients of new timeline",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Eve",
-      "target": "task: Prioritize GlobalCorp's feature requests",
-      "type": "assigned_to"
-    },
-    {
-      "source": "Eve",
-      "target": "task: Set expectations with clients regarding SSO",
+      "source": "Ben Glisan",
+      "target": "task: Run scenarios for various stock price levels",
       "type": "assigned_to"
     }
   ],
   "decisions": [
     {
-      "decision": "Product launch date confirmed for March 15",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-10T09:00:00",
-      "subject": "Product Launch Date Confirmed"
+      "decision": "Maintain current trading volume",
+      "made_by": "jeff.skilling@enron.com",
+      "timestamp": "2001-06-17T15:00:00",
+      "subject": "RE: Risk Assessment - California Energy Market"
     },
     {
-      "decision": "Total marketing budget is $8,000",
-      "made_by": "carol@startup.com",
-      "timestamp": "2025-01-12T11:00:00",
-      "subject": "Marketing Sync Meeting"
-    },
-    {
-      "decision": "Push launch to April to address payment issues",
-      "made_by": "eve@startup.com",
-      "timestamp": "2025-01-14T10:00:00",
-      "subject": "Client Feedback on Beta"
-    },
-    {
-      "decision": "Launch date moved from March 15 to April 1",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-15T09:00:00",
-      "subject": "All Hands - Launch Date Decision"
-    },
-    {
-      "decision": "Marketing campaign start date adjusted to March 10",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-15T09:00:00",
-      "subject": "All Hands - Launch Date Decision"
-    },
-    {
-      "decision": "Budget remains $8,000",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-15T09:00:00",
-      "subject": "All Hands - Launch Date Decision"
-    },
-    {
-      "decision": "campaign start date changed to March 10",
-      "made_by": "carol@startup.com",
-      "timestamp": "2025-01-15T14:00:00",
-      "subject": "Updated Campaign Timeline"
-    },
-    {
-      "decision": "budget confirmed at $8,000",
-      "made_by": "carol@startup.com",
-      "timestamp": "2025-01-15T14:00:00",
-      "subject": "Updated Campaign Timeline"
-    },
-    {
-      "decision": "Frank to do a minimal SSO implementation (2 weeks) that covers SAML basics",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-18T10:00:00",
-      "subject": "Enterprise Strategy Discussion"
-    },
-    {
-      "decision": "Full SSO in v1.1 post-launch",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-18T10:00:00",
-      "subject": "Enterprise Strategy Discussion"
-    },
-    {
-      "decision": "Eve to set expectations with clients",
-      "made_by": "alice@startup.com",
-      "timestamp": "2025-01-18T10:00:00",
-      "subject": "Enterprise Strategy Discussion"
+      "decision": "Jeff Skilling resigns as CEO",
+      "made_by": "jeff.skilling@enron.com",
+      "timestamp": "2001-08-14T07:00:00",
+      "subject": "Personal - Resignation"
     }
   ],
-  "dependencies": [
-    {
-      "blocker": "Dave",
-      "blocked": "Bob",
-      "reason": "Waiting on final copy",
-      "timestamp": "2025-01-10T14:30:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Bob",
-      "reason": "Need API specs for pricing calculator",
-      "timestamp": "2025-01-10T14:30:00"
-    },
-    {
-      "blocker": "Alice",
-      "blocked": "Dave and Carol",
-      "reason": "Confirmation of launch date",
-      "timestamp": "2025-01-13T16:00:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Launch",
-      "reason": "Needs two more weeks for payment integration",
-      "timestamp": "2025-01-14T10:00:00"
-    },
-    {
-      "blocker": "engineering",
-      "blocked": "launch date",
-      "reason": "further blockers",
-      "timestamp": "2025-01-15T09:00:00"
-    },
-    {
-      "blocker": "frank@startup.com",
-      "blocked": "bob@startup.com",
-      "reason": "Landing page is blocked until API specs are received",
-      "timestamp": "2025-01-16T10:00:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Eve",
-      "reason": "SSO integration not started",
-      "timestamp": "2025-01-17T09:00:00"
-    },
-    {
-      "blocker": "frank@startup.com",
-      "blocked": "eve@startup.com",
-      "reason": "SSO implementation timeline needed for enterprise leads",
-      "timestamp": "2025-01-17T14:00:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Eve",
-      "reason": "Eve needs to know the scope of SSO implementation to set client expectations",
-      "timestamp": "2025-01-18T10:00:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Bob",
-      "reason": "API specs for landing page",
-      "timestamp": "2025-01-19T09:00:00"
-    },
-    {
-      "blocker": "Frank",
-      "blocked": "Bob",
-      "reason": "Delay due to Stripe webhook issue",
-      "timestamp": "2025-01-20T16:00:00"
-    }
-  ]
+  "dependencies": []
 }

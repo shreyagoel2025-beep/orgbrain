@@ -3,171 +3,189 @@
     "id": 1,
     "type": "email",
     "source": "Gmail",
-    "from": "alice@startup.com",
-    "to": ["bob@startup.com", "carol@startup.com"],
-    "subject": "Product Launch Date Confirmed",
-    "body": "Team, we've confirmed the product launch for March 15. Marketing should start the campaign by Feb 20. Bob, please finalize the landing page by Feb 25. I've shared the product spec document in the Drive folder.",
-    "timestamp": "2025-01-10T09:00:00",
-    "attachments": ["Product Spec v2.1.pdf"]
+    "from": "kenneth.lay@enron.com",
+    "to": [
+      "jeff.skilling@enron.com",
+      "andrew.fastow@enron.com"
+    ],
+    "subject": "Q3 Earnings Strategy",
+    "body": "Jeff, Andrew - We need to discuss our Q3 earnings presentation before the board meeting next week. The revenue numbers from EBS are concerning. I want to make sure we have a clear story for analysts. Andrew, please prepare the SPE financial summary. Jeff, prepare talking points on our broadband strategy. Let's meet Thursday at 2pm.",
+    "timestamp": "2001-06-15T09:00:00",
+    "attachments": [
+      "Q3 Earnings Draft.xlsx"
+    ]
   },
   {
     "id": 2,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#engineering",
-    "from": "bob@startup.com",
-    "to": ["alice@startup.com"],
-    "subject": "Landing Page Update",
-    "body": "Alice, the landing page will be ready by Feb 25 as requested. I'm waiting on final copy from Dave in content. Also need the API specs from Frank for the pricing calculator.",
-    "timestamp": "2025-01-10T14:30:00",
-    "attachments": []
+    "type": "email",
+    "source": "Gmail",
+    "from": "jeff.skilling@enron.com",
+    "to": [
+      "kenneth.lay@enron.com",
+      "rebecca.mark@enron.com"
+    ],
+    "subject": "RE: Q3 Earnings Strategy",
+    "body": "Ken, the broadband division is on track. We signed 3 new content deals this week. Revenue projections for Q4 look strong at $120M. Rebecca, I need your Azurix water project numbers by Wednesday - the board will ask about international operations. Also, we should discuss the California energy situation - it's getting political attention.",
+    "timestamp": "2001-06-15T14:30:00",
+    "attachments": [
+      "Broadband Revenue Projections.pdf"
+    ]
   },
   {
     "id": 3,
-    "type": "meeting_notes",
-    "source": "AI Notetaker",
-    "from": "carol@startup.com",
-    "to": ["alice@startup.com", "bob@startup.com", "dave@startup.com"],
-    "subject": "Marketing Sync Meeting",
-    "body": "Attendees: Carol, Alice, Bob, Dave. Duration: 45 min. Key discussion: Campaign strategy for product launch. Carol proposed social media push starting Feb 15 across Instagram, LinkedIn, and Twitter. Dave raised concern about budget — only $5,000 remaining in Q1 marketing budget. Alice approved additional $3,000 from reserves. Decision: total marketing budget is $8,000. Action items: Dave to prepare content calendar by Jan 20, Carol to finalize ad creatives by Jan 25.",
-    "timestamp": "2025-01-12T11:00:00",
-    "attachments": ["Marketing Budget Q1.xlsx", "Campaign Strategy Deck.pptx"]
+    "type": "email",
+    "source": "Gmail",
+    "from": "andrew.fastow@enron.com",
+    "to": [
+      "kenneth.lay@enron.com",
+      "jeff.skilling@enron.com",
+      "ben.glisan@enron.com"
+    ],
+    "subject": "SPE Financial Summary - CONFIDENTIAL",
+    "body": "Ken, Jeff - Attached is the SPE summary as requested. LJM2 partnership performed well this quarter. The Raptor vehicles are managing our risk exposure effectively. Ben has prepared the detailed financial models. One concern: our debt-to-equity ratio needs careful messaging to analysts. I recommend we emphasize operating cash flow instead. Let's align on talking points before the analyst call.",
+    "timestamp": "2001-06-16T10:00:00",
+    "attachments": [
+      "SPE Summary Q3.xlsx",
+      "LJM2 Performance Report.pdf"
+    ]
   },
   {
     "id": 4,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#content",
-    "from": "dave@startup.com",
-    "to": ["carol@startup.com"],
-    "subject": "Campaign Copy Ready",
-    "body": "Carol, I've finished the campaign copy for all three platforms. Docs are in the shared Drive folder under /Marketing/Q1 Campaign/. Also, I heard from Eve in sales that we might push the launch to April 1 instead. Can you confirm with Alice? This would change our entire content calendar.",
-    "timestamp": "2025-01-13T16:00:00",
-    "attachments": ["Social Media Copy - Instagram.docx", "Social Media Copy - LinkedIn.docx", "Social Media Copy - Twitter.docx"]
+    "type": "email",
+    "source": "Gmail",
+    "from": "vince.kaminski@enron.com",
+    "to": [
+      "jeff.skilling@enron.com"
+    ],
+    "subject": "Risk Assessment - California Energy Market",
+    "body": "Jeff, my team has completed the risk analysis on our California trading positions. Key findings: 1) Price volatility is at historic highs. 2) Regulatory intervention is likely within 60 days. 3) Our current exposure is $340M. 4) Political risk is severe - the governor is threatening price caps. Recommendation: reduce position by 40% over the next two weeks. I've also flagged concerns about some of the trading strategies being used by Tim Belden's team in Portland.",
+    "timestamp": "2001-06-17T08:00:00",
+    "attachments": [
+      "California Risk Analysis.pdf",
+      "Trading Position Summary.xlsx"
+    ]
   },
   {
     "id": 5,
     "type": "email",
     "source": "Gmail",
-    "from": "eve@startup.com",
-    "to": ["alice@startup.com", "frank@startup.com"],
-    "subject": "Client Feedback on Beta",
-    "body": "Alice, three major clients (GlobalCorp, TechVentures, DataFlow Inc) tested the beta last week. Summary of feedback: 1) Payment flow needs more testing - two clients reported errors. 2) SSO integration is a must-have for enterprise clients. 3) Overall UX rated 4.2/5. Recommendation: push launch to April to address payment issues. Frank in engineering agrees — he needs two more weeks for the payment integration. I've attached the full client feedback report.",
-    "timestamp": "2025-01-14T10:00:00",
-    "attachments": ["Client Beta Feedback Report.pdf", "Beta Test Results Dashboard.xlsx"]
+    "from": "jeff.skilling@enron.com",
+    "to": [
+      "vince.kaminski@enron.com",
+      "john.lavorato@enron.com"
+    ],
+    "subject": "RE: Risk Assessment - California Energy Market",
+    "body": "Vince, thanks for the analysis. I disagree with the recommendation to reduce positions. Our traders are operating within guidelines and the market fundamentals support our strategy. John, please review Vince's analysis but I want to maintain our current trading volume. The California situation will resolve itself once new generation capacity comes online. Let's not overreact to political noise.",
+    "timestamp": "2001-06-17T15:00:00",
+    "attachments": []
   },
   {
     "id": 6,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#engineering",
-    "from": "frank@startup.com",
-    "to": ["alice@startup.com", "bob@startup.com"],
-    "subject": "Engineering Update",
-    "body": "Payment integration is behind schedule. Root cause: Stripe API changed their webhook format and we need to rewrite the handler. Realistically need until March 30 to finish. This means the March 15 launch date is not feasible. I recommend April 1. I've updated the engineering roadmap in Notion.",
-    "timestamp": "2025-01-14T15:00:00",
-    "attachments": ["Engineering Roadmap Q1.pdf"]
+    "type": "email",
+    "source": "Gmail",
+    "from": "sherron.watkins@enron.com",
+    "to": [
+      "kenneth.lay@enron.com"
+    ],
+    "subject": "Accounting Concerns",
+    "body": "Ken, I am writing to you because I am incredibly nervous that we will implode in a wave of accounting scandals. I have heard that the Raptor structures that Andrew set up are not performing as intended. The related-party transactions with LJM need closer scrutiny. I have discussed my concerns with several senior people but have not received satisfactory answers. I believe we need an independent review of these structures before our next SEC filing. This is urgent.",
+    "timestamp": "2001-08-15T09:00:00",
+    "attachments": []
   },
   {
     "id": 7,
-    "type": "meeting_notes",
-    "source": "AI Notetaker",
-    "from": "alice@startup.com",
-    "to": ["bob@startup.com", "carol@startup.com", "dave@startup.com", "eve@startup.com", "frank@startup.com"],
-    "subject": "All Hands - Launch Date Decision",
-    "body": "All-hands meeting called by Alice. Duration: 60 min. All team members present. DECISION: After reviewing engineering timeline and client feedback, the launch date is officially moved from March 15 to April 1. Marketing campaign start date adjusted to March 10. Budget remains $8,000. Frank to deliver final build by March 28. Bob to update landing page by March 25. Eve to notify beta clients of new timeline. Carol to revise campaign schedule. Dave to update content calendar. This decision is final unless engineering encounters further blockers.",
-    "timestamp": "2025-01-15T09:00:00",
-    "attachments": ["All Hands Meeting Recording.mp4", "Updated Timeline.pdf"]
+    "type": "email",
+    "source": "Gmail",
+    "from": "kenneth.lay@enron.com",
+    "to": [
+      "james.derrick@enron.com",
+      "andrew.fastow@enron.com"
+    ],
+    "subject": "FW: Accounting Concerns - Please Review",
+    "body": "Jim, please review the attached concerns raised by Sherron Watkins in our accounting group. I want a full assessment of the Raptor and LJM structures. Andrew, I need you to prepare a detailed response to each of her points. Let's schedule a meeting for next Monday to discuss. This needs to stay confidential.",
+    "timestamp": "2001-08-16T08:00:00",
+    "attachments": [
+      "Watkins Memo.pdf"
+    ]
   },
   {
     "id": 8,
     "type": "email",
     "source": "Gmail",
-    "from": "carol@startup.com",
-    "to": ["dave@startup.com"],
-    "subject": "Updated Campaign Timeline",
-    "body": "Dave, updating you — campaign now starts March 10 instead of Feb 20. Please revise the content calendar accordingly. Budget is confirmed at $8,000. I need the revised calendar by Jan 22. Also please update the Campaign Strategy Deck with the new dates.",
-    "timestamp": "2025-01-15T14:00:00",
-    "attachments": []
+    "from": "rebecca.mark@enron.com",
+    "to": [
+      "jeff.skilling@enron.com",
+      "kenneth.lay@enron.com"
+    ],
+    "subject": "Azurix International Operations Update",
+    "body": "Jeff, Ken - Azurix update for the board: 1) Buenos Aires water concession is underperforming - revenue 30% below projections. 2) UK operations are stable. 3) We need an additional $200M capital injection to meet contractual obligations. 4) I recommend we consider strategic options including a potential sale of the Buenos Aires asset. The write-down could be significant. I know this isn't what the board wants to hear but we need to be transparent about the challenges.",
+    "timestamp": "2001-06-18T11:00:00",
+    "attachments": [
+      "Azurix Q3 Operations.pdf",
+      "Buenos Aires Financial Model.xlsx"
+    ]
   },
   {
     "id": 9,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#engineering",
-    "from": "bob@startup.com",
-    "to": ["frank@startup.com"],
-    "subject": "API Specs Needed",
-    "body": "Frank, I need the final API specs for the pricing page. The calculator widget depends on the /api/pricing endpoint. Can you send them by next Monday? The landing page is blocked until I get these.",
-    "timestamp": "2025-01-16T10:00:00",
-    "attachments": []
+    "type": "email",
+    "source": "Gmail",
+    "from": "john.lavorato@enron.com",
+    "to": [
+      "jeff.skilling@enron.com",
+      "greg.whalley@enron.com"
+    ],
+    "subject": "Trading Floor Update - Weekly",
+    "body": "Jeff, Greg - Weekly trading summary: Natural gas trading revenue up 15% week over week. Power trading in California continues to be highly profitable but I share some of Vince's concerns about regulatory risk. Our crude oil desk had a $12M loss on a bad hedge - Tim is reviewing. Overall the trading floor is performing well but we're seeing increased margin calls from counterparties who are concerned about our credit rating. We should discuss the credit situation at the next ExCo meeting.",
+    "timestamp": "2001-06-19T16:00:00",
+    "attachments": [
+      "Weekly Trading Summary.xlsx"
+    ]
   },
   {
     "id": 10,
     "type": "email",
     "source": "Gmail",
-    "from": "eve@startup.com",
-    "to": ["alice@startup.com"],
-    "subject": "New Enterprise Client Interest",
-    "body": "Great news — GlobalCorp wants a demo before launch. They could be a $50K annual contract. They specifically want: 1) SSO integration (SAML), 2) Role-based access control, 3) Audit logging. Frank hasn't started SSO yet. Suggest we prioritize their feature requests. I've created a deal tracker in the CRM.",
-    "timestamp": "2025-01-17T09:00:00",
-    "attachments": ["GlobalCorp Deal Summary.pdf", "Enterprise Feature Requirements.xlsx"]
+    "from": "greg.whalley@enron.com",
+    "to": [
+      "kenneth.lay@enron.com",
+      "jeff.skilling@enron.com",
+      "andrew.fastow@enron.com"
+    ],
+    "subject": "Credit Rating Discussion - Urgent",
+    "body": "Ken, Jeff, Andrew - Moody's called today. They're reviewing our credit rating and want a meeting next week. Key concerns: 1) Off-balance-sheet obligations in SPEs. 2) Declining stock price affecting Raptor triggers. 3) California regulatory exposure. 4) Azurix write-down potential. Andrew, we need to present a very clear picture of our actual financial obligations. A downgrade would trigger $3.9B in accelerated debt payments. This is our most critical issue right now.",
+    "timestamp": "2001-10-22T09:00:00",
+    "attachments": [
+      "Moody's Meeting Prep.pdf",
+      "Credit Trigger Analysis.xlsx"
+    ]
   },
   {
     "id": 11,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#sales",
-    "from": "eve@startup.com",
-    "to": ["alice@startup.com", "frank@startup.com"],
-    "subject": "Two More Enterprise Leads",
-    "body": "Update: TechVentures and DataFlow also want pre-launch demos. Combined potential ARR: $120K. All three need SSO. Frank, what's the realistic timeline for SSO implementation? This could be a game-changer for our Q2 revenue targets.",
-    "timestamp": "2025-01-17T14:00:00",
-    "attachments": ["Q2 Revenue Projections.xlsx"]
+    "type": "email",
+    "source": "Gmail",
+    "from": "andrew.fastow@enron.com",
+    "to": [
+      "greg.whalley@enron.com",
+      "ben.glisan@enron.com"
+    ],
+    "subject": "RE: Credit Rating Discussion - Urgent",
+    "body": "Greg, I am working on the presentation for Moody's. The SPE obligations are complex but manageable if our stock stays above $30. Ben is running scenarios for various stock price levels. The Raptor restructuring we did in Q3 should address most of their concerns. I'll have a draft ready by Thursday. One issue: some of the LJM transactions may need to be restated. I'm working with Arthur Andersen on this.",
+    "timestamp": "2001-10-22T14:00:00",
+    "attachments": [
+      "SPE Scenario Analysis.xlsx"
+    ]
   },
   {
     "id": 12,
-    "type": "meeting_notes",
-    "source": "AI Notetaker",
-    "from": "alice@startup.com",
-    "to": ["frank@startup.com", "eve@startup.com"],
-    "subject": "Enterprise Strategy Discussion",
-    "body": "Meeting between Alice, Frank, and Eve. Duration: 30 min. Topic: How to handle enterprise client demands vs launch timeline. Frank estimates SSO will take 3 weeks. CONFLICT: Adding SSO could push launch past April 1. Alice's decision: Frank to do a minimal SSO implementation (2 weeks) that covers SAML basics. Full SSO in v1.1 post-launch. Eve to set expectations with clients. Risk: minimal SSO might not satisfy GlobalCorp's security requirements.",
-    "timestamp": "2025-01-18T10:00:00",
-    "attachments": ["SSO Implementation Plan.pdf"]
-  },
-  {
-    "id": 13,
-    "type": "slack",
-    "source": "Slack",
-    "channel": "#general",
-    "from": "alice@startup.com",
-    "to": ["bob@startup.com", "carol@startup.com", "dave@startup.com", "eve@startup.com", "frank@startup.com"],
-    "subject": "Weekly Update from CEO",
-    "body": "Team, weekly update: 1) Launch date holds at April 1. 2) Frank is working on minimal SSO for enterprise clients. 3) Marketing campaign starts March 10 - Carol and Dave are on track. 4) Three enterprise clients in pipeline worth $120K ARR. 5) Bob's landing page blocked on Frank's API specs - Frank please prioritize. 6) Runway update: we have 8 months of runway. Need to hit $200K ARR by Q3. Let's stay focused and aligned!",
-    "timestamp": "2025-01-19T09:00:00",
-    "attachments": ["Weekly Update Jan 19.pdf", "Runway Calculator.xlsx"]
-  },
-  {
-    "id": 14,
-    "type": "document",
-    "source": "Google Drive",
-    "from": "carol@startup.com",
-    "to": ["dave@startup.com", "alice@startup.com"],
-    "subject": "Campaign Strategy Deck - Updated",
-    "body": "Updated the Campaign Strategy Deck with new timeline (March 10 start, April 1 launch). Key changes: 1) Phase 1 (March 10-20): Teaser campaign on social media. 2) Phase 2 (March 20-31): Full campaign with paid ads, blog posts, email sequences. 3) Phase 3 (April 1-15): Launch week blitz. Budget allocation: Social ads $3,000, Content creation $2,000, Email marketing $1,500, Influencer partnerships $1,500. KPIs: 10,000 signups, 500 paid conversions in first month.",
-    "timestamp": "2025-01-20T11:00:00",
-    "attachments": ["Campaign Strategy Deck v3.pptx", "Content Calendar March-April.xlsx"]
-  },
-  {
-    "id": 15,
     "type": "email",
     "source": "Gmail",
-    "from": "frank@startup.com",
-    "to": ["bob@startup.com"],
-    "subject": "API Specs for Pricing Page",
-    "body": "Bob, here are the API specs for the pricing endpoint. Endpoint: GET /api/v1/pricing. Returns JSON with plan tiers, features, and pricing. I've also included the webhook spec for handling subscription changes. Let me know if you need anything else. Sorry for the delay — was firefighting the Stripe webhook issue.",
-    "timestamp": "2025-01-20T16:00:00",
-    "attachments": ["API Specs v2.pdf", "Webhook Documentation.md"]
+    "from": "jeff.skilling@enron.com",
+    "to": [
+      "kenneth.lay@enron.com"
+    ],
+    "subject": "Personal - Resignation",
+    "body": "Ken, as I mentioned in our conversation yesterday, I have decided to resign as CEO effective immediately for personal reasons. I believe in Enron's future and this decision has nothing to do with the company's financial position. I will assist with the transition in any way I can. I recommend Greg Whalley or Andy Fastow as interim leadership for day-to-day operations.",
+    "timestamp": "2001-08-14T07:00:00",
+    "attachments": []
   }
 ]

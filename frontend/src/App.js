@@ -23,49 +23,46 @@ function App() {
   const graphRef = useRef();
 
   const allMessages = [
-    { source: 'Gmail', from: 'alice', subject: 'Product Launch Date Confirmed', time: '9:00 AM', color: '#EF4444' },
-    { source: 'Slack', from: 'bob', subject: 'Landing Page Update', time: '2:30 PM', channel: '#engineering', color: '#7C3AED' },
-    { source: 'AI Notetaker', from: 'carol', subject: 'Marketing Sync Meeting', time: '11:00 AM', color: '#F59E0B' },
-    { source: 'Slack', from: 'dave', subject: 'Campaign Copy Ready', time: '4:00 PM', channel: '#content', color: '#7C3AED' },
-    { source: 'Gmail', from: 'eve', subject: 'Client Feedback on Beta', time: '10:00 AM', color: '#EF4444' },
-    { source: 'Slack', from: 'frank', subject: 'Engineering Update', time: '3:00 PM', channel: '#engineering', color: '#7C3AED' },
-    { source: 'AI Notetaker', from: 'alice', subject: 'All Hands - Launch Date Decision', time: '9:00 AM', color: '#F59E0B' },
-    { source: 'Gmail', from: 'carol', subject: 'Updated Campaign Timeline', time: '2:00 PM', color: '#EF4444' },
-    { source: 'Slack', from: 'bob', subject: 'API Specs Needed', time: '10:00 AM', channel: '#engineering', color: '#7C3AED' },
-    { source: 'Gmail', from: 'eve', subject: 'New Enterprise Client Interest', time: '9:00 AM', color: '#EF4444' },
-    { source: 'Slack', from: 'eve', subject: 'Two More Enterprise Leads', time: '2:00 PM', channel: '#sales', color: '#7C3AED' },
-    { source: 'AI Notetaker', from: 'alice', subject: 'Enterprise Strategy Discussion', time: '10:00 AM', color: '#F59E0B' },
-    { source: 'Slack', from: 'alice', subject: 'Weekly Update from CEO', time: '9:00 AM', channel: '#general', color: '#7C3AED' },
-    { source: 'Google Drive', from: 'carol', subject: 'Campaign Strategy Deck - Updated', time: '11:00 AM', color: '#10B981' },
-    { source: 'Gmail', from: 'frank', subject: 'API Specs for Pricing Page', time: '4:00 PM', color: '#EF4444' },
+    { source: 'Gmail', from: 'kenneth.lay', subject: 'Q3 Earnings Strategy', time: '9:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'jeff.skilling', subject: 'RE: Q3 Earnings Strategy', time: '2:30 PM', color: '#EF4444' },
+    { source: 'Gmail', from: 'andrew.fastow', subject: 'SPE Financial Summary - CONFIDENTIAL', time: '10:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'vince.kaminski', subject: 'Risk Assessment - California Energy Market', time: '8:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'jeff.skilling', subject: 'RE: Risk Assessment - Disagree', time: '3:00 PM', color: '#EF4444' },
+    { source: 'Gmail', from: 'sherron.watkins', subject: 'Accounting Concerns - URGENT', time: '9:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'kenneth.lay', subject: 'FW: Accounting Concerns - Please Review', time: '8:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'rebecca.mark', subject: 'Azurix International Operations Update', time: '11:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'john.lavorato', subject: 'Trading Floor Update - Weekly', time: '4:00 PM', color: '#EF4444' },
+    { source: 'Gmail', from: 'greg.whalley', subject: 'Credit Rating Discussion - URGENT', time: '9:00 AM', color: '#EF4444' },
+    { source: 'Gmail', from: 'andrew.fastow', subject: 'RE: Credit Rating - SPE Scenarios', time: '2:00 PM', color: '#EF4444' },
+    { source: 'Gmail', from: 'jeff.skilling', subject: 'Personal - Resignation', time: '7:00 AM', color: '#EF4444' },
   ];
 
-  useEffect(() => {
+  useEffect(function() {
     loadData();
   }, []);
 
-  useEffect(() => {
+  useEffect(function() {
     if (feedIndex >= allMessages.length) return;
-    const timer = setTimeout(() => {
-      setFeedMessages(prev => [allMessages[feedIndex], ...prev]);
-      setFeedIndex(prev => prev + 1);
+    var timer = setTimeout(function() {
+      setFeedMessages(function(prev) { return [allMessages[feedIndex]].concat(prev); });
+      setFeedIndex(function(prev) { return prev + 1; });
     }, 2000);
-    return () => clearTimeout(timer);
+    return function() { clearTimeout(timer); };
   }, [feedIndex]);
 
-  const loadData = async () => {
+  var loadData = async function() {
     try {
-      const [graphRes, issuesRes, decisionsRes, depsRes] = await Promise.all([
+      var results = await Promise.all([
         axios.get(API + '/graph'),
         axios.get(API + '/issues'),
         axios.get(API + '/decisions'),
         axios.get(API + '/dependencies'),
       ]);
 
-      const raw = graphRes.data;
+      var raw = results[0].data;
       setRawGraph(raw);
 
-      const nodes = raw.nodes.map(function(n) {
+      var nodes = raw.nodes.map(function(n) {
         return {
           id: n.id,
           type: n.type,
@@ -75,7 +72,7 @@ function App() {
         };
       });
 
-      const links = raw.edges
+      var links = raw.edges
         .filter(function(e) { return e.type === 'communication' || e.type === 'discusses'; })
         .map(function(e) {
           return {
@@ -87,20 +84,20 @@ function App() {
         });
 
       setGraphData({ nodes: nodes, links: links });
-      setIssues(issuesRes.data);
-      setDecisions(decisionsRes.data);
-      setDependencies(depsRes.data);
+      setIssues(results[1].data);
+      setDecisions(results[2].data);
+      setDependencies(results[3].data);
     } catch (err) {
       console.error('Failed to load data:', err);
     }
   };
 
-  const askQuestion = async () => {
+  var askQuestion = async function() {
     if (!question.trim()) return;
     setLoading(true);
     setAnswer('');
     try {
-      const res = await axios.post(API + '/ask', { question: question });
+      var res = await axios.post(API + '/ask', { question: question });
       setAnswer(res.data.answer);
     } catch (err) {
       setAnswer('Error getting response.');
@@ -108,19 +105,19 @@ function App() {
     setLoading(false);
   };
 
-  const getNodeColor = useCallback(function(node) {
+  var getNodeColor = useCallback(function(node) {
     if (node.type === 'person') return '#4F46E5';
     if (node.type === 'topic') return '#10B981';
     if (node.type === 'action_item') return '#F59E0B';
     return '#6B7280';
   }, []);
 
-  const getLinkColor = useCallback(function(link) {
+  var getLinkColor = useCallback(function(link) {
     if (link.type === 'communication') return 'rgba(79, 70, 229, 0.4)';
     return 'rgba(107, 114, 128, 0.15)';
   }, []);
 
-  const handleNodeClick = useCallback(function(node) {
+  var handleNodeClick = useCallback(function(node) {
     setSelectedNode(node);
     if (!rawGraph) return;
 
@@ -135,11 +132,12 @@ function App() {
     });
 
     var relatedDecisions = rawGraph.decisions.filter(function(d) {
-      return d.made_by === nodeId || d.decision.toLowerCase().includes(nodeId.replace('@startup.com', '').toLowerCase());
+      var name = nodeId.replace('@enron.com', '').toLowerCase();
+      return d.made_by === nodeId || d.decision.toLowerCase().includes(name);
     });
 
     var relatedDeps = rawGraph.dependencies.filter(function(d) {
-      var name = nodeId.replace('@startup.com', '').toLowerCase();
+      var name = nodeId.replace('@enron.com', '').toLowerCase();
       return (d.blocker && d.blocker.toLowerCase().includes(name)) ||
              (d.blocked && d.blocked.toLowerCase().includes(name));
     });
@@ -160,12 +158,12 @@ function App() {
     if (node.type === 'topic') {
       var topicName = nodeId.charAt(0).toUpperCase() + nodeId.slice(1);
       documents.push(
-        { name: topicName + ' - Latest Brief.pdf', type: 'pdf', date: 'Jan 20, 2025' },
-        { name: topicName + ' - Strategy Deck.pptx', type: 'pptx', date: 'Jan 18, 2025' }
+        { name: topicName + ' - Latest Brief.pdf', type: 'pdf', date: 'Oct 2001' },
+        { name: topicName + ' - Analysis Deck.pptx', type: 'pptx', date: 'Sep 2001' }
       );
     }
     if (node.type === 'person') {
-      var personName = nodeId.replace('@startup.com', '');
+      var personName = nodeId.replace('@enron.com', '');
       documents.push(
         { name: personName + ' - Task Dashboard', type: 'link', date: 'Live' },
         { name: personName + ' - Recent Communications', type: 'log', date: 'Last 7 days' }
@@ -183,7 +181,7 @@ function App() {
       edgeCount: connectedEdges.length,
     });
     setActiveTab('detail');
-  }, [rawGraph]);
+  }, [rawGraph, graphData]);
 
   var handleKeyPress = function(e) {
     if (e.key === 'Enter') askQuestion();
@@ -249,7 +247,7 @@ function App() {
             backgroundColor="#0F172A"
             onNodeClick={handleNodeClick}
             nodeCanvasObject={function(node, ctx, globalScale) {
-              var label = node.id.replace('@startup.com', '').replace('task: ', '');
+              var label = node.id.replace('@enron.com', '').replace('task: ', '');
               var fontSize = node.type === 'person' ? 14 / globalScale : 10 / globalScale;
               var color = getNodeColor(node);
               var isSelected = selectedNode && selectedNode.id === node.id;
@@ -325,10 +323,10 @@ function App() {
                       display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 20,
                       color: 'white', fontWeight: 'bold'
                     }}>
-                      {nodeDetail.node.id.replace('@startup.com', '').charAt(0).toUpperCase()}
+                      {nodeDetail.node.id.replace('@enron.com', '').charAt(0).toUpperCase()}
                     </div>
                     <div>
-                      <h2 style={{ margin: 0, fontSize: 20 }}>{nodeDetail.node.id.replace('@startup.com', '')}</h2>
+                      <h2 style={{ margin: 0, fontSize: 20 }}>{nodeDetail.node.id.replace('@enron.com', '')}</h2>
                       <p style={{ margin: 0, color: '#94A3B8', fontSize: 12, textTransform: 'capitalize' }}>
                         {nodeDetail.node.type + ' | ' + nodeDetail.edgeCount + ' connections'}
                       </p>
@@ -405,7 +403,7 @@ function App() {
                             if (gNode) handleNodeClick(gNode);
                           }}
                             style={{ padding: '4px 10px', borderRadius: 20, background: '#4F46E5', fontSize: 12, cursor: 'pointer' }}>
-                            {p.id.replace('@startup.com', '')}
+                            {p.id.replace('@enron.com', '')}
                           </span>
                         );
                       })}
@@ -466,10 +464,7 @@ function App() {
                       borderLeft: '3px solid ' + msg.color,
                     }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                          <span style={{ fontSize: 11, color: msg.color, fontWeight: 600 }}>{msg.source}</span>
-                          {msg.channel && <span style={{ fontSize: 10, color: '#64748B' }}>{msg.channel}</span>}
-                        </div>
+                        <span style={{ fontSize: 11, color: msg.color, fontWeight: 600 }}>{msg.source}</span>
                         <span style={{ fontSize: 10, color: '#64748B' }}>{msg.time}</span>
                       </div>
                       <p style={{ margin: 0, fontSize: 13 }}>{msg.subject}</p>
@@ -541,7 +536,7 @@ function App() {
                     value={question}
                     onChange={function(e) { setQuestion(e.target.value); }}
                     onKeyPress={handleKeyPress}
-                    placeholder="e.g. What changed today? Who is blocking the launch?"
+                    placeholder="e.g. What are the biggest risks? Who is involved in the SPE deals?"
                     style={{
                       flex: 1, padding: '10px 14px', borderRadius: 8, border: '1px solid #334155',
                       background: '#1E293B', color: 'white', fontSize: 13, outline: 'none',
@@ -552,6 +547,7 @@ function App() {
                     {loading ? '...' : 'Ask'}
                   </button>
                 </div>
+
                 {answer && (
                   <button
                     onClick={async function() {
@@ -572,13 +568,13 @@ function App() {
 
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginBottom: 12 }}>
                   {[
-                    'What changed today?',
-                    'Who is blocking the launch?',
                     'What are the biggest risks?',
+                    'Who raised accounting concerns?',
+                    'What is the California energy situation?',
                     'Summarize all decisions',
-                    'What does Frank need to do?',
-                    'What is the marketing budget?',
-                    'Who are our enterprise clients?',
+                    'Who is involved in SPE deals?',
+                    'What is the credit rating risk?',
+                    'Why did Jeff Skilling resign?',
                   ].map(function(q) {
                     return (
                       <button key={q} onClick={function() { setQuestion(q); }}

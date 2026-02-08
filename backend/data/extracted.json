@@ -1,617 +1,420 @@
 [
   {
-    "sender": "alice@startup.com",
+    "sender": "kenneth.lay@enron.com",
     "recipients": [
-      "bob@startup.com",
-      "carol@startup.com"
+      "jeff.skilling@enron.com",
+      "andrew.fastow@enron.com"
     ],
     "topics": [
-      "product launch",
-      "marketing campaign",
-      "landing page",
-      "product spec document"
+      "Q3 earnings presentation",
+      "EBS revenue numbers",
+      "analyst communication",
+      "SPE financial summary",
+      "broadband strategy"
     ],
-    "decisions": [
-      "Product launch date confirmed for March 15"
-    ],
+    "decisions": [],
     "action_items": [
       {
-        "owner": "Marketing",
-        "task": "Start the campaign",
-        "deadline": "2025-02-20"
+        "owner": "Andrew Fastow",
+        "task": "Prepare the SPE financial summary",
+        "deadline": "Before the board meeting next week"
       },
       {
-        "owner": "Bob",
-        "task": "Finalize the landing page",
-        "deadline": "2025-02-25"
+        "owner": "Jeff Skilling",
+        "task": "Prepare talking points on broadband strategy",
+        "deadline": "Before the board meeting next week"
       }
     ],
     "dependencies": [],
-    "sentiment": "neutral",
+    "sentiment": "urgent",
     "key_facts": [
-      "Product launch date: March 15",
-      "Marketing campaign start date: Feb 20",
-      "Landing page deadline: Feb 25"
+      "The revenue numbers from EBS are concerning",
+      "Meeting scheduled for Thursday at 2pm"
     ],
     "original_id": 1,
-    "timestamp": "2025-01-10T09:00:00",
+    "timestamp": "2001-06-15T09:00:00",
     "type": "email",
-    "subject": "Product Launch Date Confirmed"
+    "subject": "Q3 Earnings Strategy"
   },
   {
-    "sender": "bob@startup.com",
+    "sender": "jeff.skilling@enron.com",
     "recipients": [
-      "alice@startup.com"
+      "kenneth.lay@enron.com",
+      "rebecca.mark@enron.com"
     ],
     "topics": [
-      "landing page",
-      "final copy",
-      "API specs",
-      "pricing calculator"
+      "broadband division",
+      "content deals",
+      "Q4 revenue projections",
+      "Azurix water project",
+      "international operations",
+      "California energy situation"
     ],
     "decisions": [],
     "action_items": [
       {
-        "owner": "Bob",
-        "task": "Complete landing page",
-        "deadline": "2025-02-25"
+        "owner": "Rebecca Mark",
+        "task": "Provide Azurix water project numbers",
+        "deadline": "2001-06-20"
       }
     ],
-    "dependencies": [
-      {
-        "blocker": "Dave",
-        "blocked": "Bob",
-        "reason": "Waiting on final copy"
-      },
-      {
-        "blocker": "Frank",
-        "blocked": "Bob",
-        "reason": "Need API specs for pricing calculator"
-      }
-    ],
-    "sentiment": "neutral",
+    "dependencies": [],
+    "sentiment": "urgent",
     "key_facts": [
-      "Landing page ready by Feb 25"
+      "3 new content deals signed",
+      "Q4 revenue projections at $120M"
     ],
     "original_id": 2,
-    "timestamp": "2025-01-10T14:30:00",
-    "type": "slack",
-    "subject": "Landing Page Update"
+    "timestamp": "2001-06-15T14:30:00",
+    "type": "email",
+    "subject": "RE: Q3 Earnings Strategy"
   },
   {
-    "sender": "carol@startup.com",
+    "sender": "andrew.fastow@enron.com",
     "recipients": [
-      "alice@startup.com",
-      "bob@startup.com",
-      "dave@startup.com"
+      "kenneth.lay@enron.com",
+      "jeff.skilling@enron.com",
+      "ben.glisan@enron.com"
     ],
     "topics": [
-      "Campaign strategy for product launch",
-      "Social media push",
-      "Budget concerns"
+      "SPE summary",
+      "LJM2 partnership performance",
+      "Raptor vehicles risk management",
+      "debt-to-equity ratio",
+      "operating cash flow",
+      "analyst call"
     ],
-    "decisions": [
-      "Total marketing budget is $8,000"
-    ],
+    "decisions": [],
     "action_items": [
       {
-        "owner": "Dave",
-        "task": "Prepare content calendar",
-        "deadline": "2025-01-20"
-      },
-      {
-        "owner": "Carol",
-        "task": "Finalize ad creatives",
-        "deadline": "2025-01-25"
+        "owner": "all",
+        "task": "Align on talking points before the analyst call",
+        "deadline": null
       }
     ],
     "dependencies": [],
-    "sentiment": "neutral",
+    "sentiment": "urgent",
     "key_facts": [
-      "Social media push starting Feb 15",
-      "Platforms: Instagram, LinkedIn, Twitter",
-      "Remaining Q1 marketing budget: $5,000",
-      "Additional $3,000 approved from reserves",
-      "Total marketing budget: $8,000"
+      "LJM2 partnership performed well this quarter",
+      "Raptor vehicles are managing risk exposure effectively",
+      "Debt-to-equity ratio needs careful messaging"
     ],
     "original_id": 3,
-    "timestamp": "2025-01-12T11:00:00",
-    "type": "meeting_notes",
-    "subject": "Marketing Sync Meeting"
-  },
-  {
-    "sender": "dave@startup.com",
-    "recipients": [
-      "carol@startup.com"
-    ],
-    "topics": [
-      "campaign copy",
-      "shared Drive folder",
-      "launch date",
-      "content calendar"
-    ],
-    "decisions": [],
-    "action_items": [
-      {
-        "owner": "Carol",
-        "task": "Confirm launch date with Alice",
-        "deadline": null
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Alice",
-        "blocked": "Dave and Carol",
-        "reason": "Confirmation of launch date"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Campaign copy is ready for all three platforms",
-      "Docs are in the shared Drive folder under /Marketing/Q1 Campaign/",
-      "Potential launch date change to April 1"
-    ],
-    "original_id": 4,
-    "timestamp": "2025-01-13T16:00:00",
-    "type": "slack",
-    "subject": "Campaign Copy Ready"
-  },
-  {
-    "sender": "eve@startup.com",
-    "recipients": [
-      "alice@startup.com",
-      "frank@startup.com"
-    ],
-    "topics": [
-      "client feedback",
-      "beta testing",
-      "payment flow",
-      "SSO integration",
-      "UX rating",
-      "launch timeline"
-    ],
-    "decisions": [
-      "push launch to April"
-    ],
-    "action_items": [
-      {
-        "owner": "Frank",
-        "task": "Address payment integration issues",
-        "deadline": "2025-01-28"
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Frank",
-        "blocked": "Launch",
-        "reason": "Payment integration needs more testing"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Three major clients tested the beta",
-      "Clients: GlobalCorp, TechVentures, DataFlow Inc",
-      "Payment flow needs more testing",
-      "SSO integration is a must-have",
-      "Overall UX rated 4.2/5",
-      "Frank needs two more weeks for payment integration"
-    ],
-    "original_id": 5,
-    "timestamp": "2025-01-14T10:00:00",
+    "timestamp": "2001-06-16T10:00:00",
     "type": "email",
-    "subject": "Client Feedback on Beta"
+    "subject": "SPE Financial Summary - CONFIDENTIAL"
   },
   {
-    "sender": "frank@startup.com",
+    "sender": "vince.kaminski@enron.com",
     "recipients": [
-      "alice@startup.com",
-      "bob@startup.com"
+      "jeff.skilling@enron.com"
     ],
     "topics": [
-      "Payment integration",
-      "Stripe API",
-      "Engineering roadmap"
+      "Risk Assessment",
+      "California Energy Market",
+      "Price Volatility",
+      "Regulatory Intervention",
+      "Political Risk",
+      "Trading Strategies"
     ],
     "decisions": [],
     "action_items": [
       {
-        "owner": "Engineering team",
-        "task": "Rewrite the handler for Stripe API webhook format",
-        "deadline": "2025-03-30"
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Stripe API",
-        "blocked": "Engineering team",
-        "reason": "Webhook format change"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Payment integration is behind schedule",
-      "Stripe API changed their webhook format",
-      "March 15 launch date is not feasible",
-      "Recommended new launch date is April 1"
-    ],
-    "original_id": 6,
-    "timestamp": "2025-01-14T15:00:00",
-    "type": "slack",
-    "subject": "Engineering Update"
-  },
-  {
-    "sender": "alice@startup.com",
-    "recipients": [
-      "bob@startup.com",
-      "carol@startup.com",
-      "dave@startup.com",
-      "eve@startup.com",
-      "frank@startup.com"
-    ],
-    "topics": [
-      "Launch date decision",
-      "Marketing campaign adjustment",
-      "Budget confirmation",
-      "Final build delivery",
-      "Client notification",
-      "Campaign schedule revision",
-      "Content calendar update"
-    ],
-    "decisions": [
-      "Launch date moved from March 15 to April 1",
-      "Marketing campaign start date adjusted to March 10",
-      "Budget remains $8,000"
-    ],
-    "action_items": [
-      {
-        "owner": "Frank",
-        "task": "Deliver final build",
-        "deadline": "2025-03-28"
-      },
-      {
-        "owner": "Bob",
-        "task": "Update landing page",
-        "deadline": "2025-03-25"
-      },
-      {
-        "owner": "Eve",
-        "task": "Notify beta clients of new timeline",
-        "deadline": null
-      },
-      {
-        "owner": "Carol",
-        "task": "Revise campaign schedule",
-        "deadline": null
-      },
-      {
-        "owner": "Dave",
-        "task": "Update content calendar",
-        "deadline": null
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Engineering",
-        "blocked": "Entire team",
-        "reason": "Further blockers in engineering"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Launch date moved to April 1",
-      "Marketing campaign starts March 10",
-      "Budget is $8,000",
-      "Final build due March 28",
-      "Landing page update due March 25"
-    ],
-    "original_id": 7,
-    "timestamp": "2025-01-15T09:00:00",
-    "type": "meeting_notes",
-    "subject": "All Hands - Launch Date Decision"
-  },
-  {
-    "sender": "carol@startup.com",
-    "recipients": [
-      "dave@startup.com"
-    ],
-    "topics": [
-      "campaign timeline",
-      "content calendar",
-      "budget",
-      "Campaign Strategy Deck"
-    ],
-    "decisions": [
-      "campaign start date changed to March 10",
-      "budget confirmed at $8,000"
-    ],
-    "action_items": [
-      {
-        "owner": "dave@startup.com",
-        "task": "revise the content calendar",
-        "deadline": "2025-01-22"
-      },
-      {
-        "owner": "dave@startup.com",
-        "task": "update the Campaign Strategy Deck with new dates",
-        "deadline": null
+        "owner": "Vince Kaminski",
+        "task": "Reduce position by 40%",
+        "deadline": "2001-07-01"
       }
     ],
     "dependencies": [],
     "sentiment": "urgent",
     "key_facts": [
-      "campaign starts March 10",
-      "budget is $8,000",
-      "revised calendar due by Jan 22"
+      "Price volatility is at historic highs",
+      "Regulatory intervention is likely within 60 days",
+      "Current exposure is $340M",
+      "Political risk is severe",
+      "Governor is threatening price caps"
     ],
-    "original_id": 8,
-    "timestamp": "2025-01-15T14:00:00",
+    "original_id": 4,
+    "timestamp": "2001-06-17T08:00:00",
     "type": "email",
-    "subject": "Updated Campaign Timeline"
+    "subject": "Risk Assessment - California Energy Market"
   },
   {
-    "sender": "bob@startup.com",
+    "sender": "jeff.skilling@enron.com",
     "recipients": [
-      "frank@startup.com"
+      "vince.kaminski@enron.com",
+      "john.lavorato@enron.com"
     ],
     "topics": [
-      "API specs",
-      "pricing page",
-      "calculator widget",
-      "/api/pricing endpoint",
-      "landing page"
-    ],
-    "decisions": [],
-    "action_items": [
-      {
-        "owner": "frank@startup.com",
-        "task": "Send final API specs for the pricing page",
-        "deadline": "2025-01-20"
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "frank@startup.com",
-        "blocked": "bob@startup.com",
-        "reason": "Landing page is blocked until API specs are received"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [],
-    "original_id": 9,
-    "timestamp": "2025-01-16T10:00:00",
-    "type": "slack",
-    "subject": "API Specs Needed"
-  },
-  {
-    "sender": "eve@startup.com",
-    "recipients": [
-      "alice@startup.com"
-    ],
-    "topics": [
-      "New Enterprise Client Interest",
-      "Demo Request",
-      "Feature Requests",
-      "Deal Tracker"
+      "Risk Assessment",
+      "California Energy Market",
+      "Trading Strategy"
     ],
     "decisions": [
-      "Prioritize GlobalCorp's feature requests"
+      "Maintain current trading volume"
     ],
     "action_items": [
       {
-        "owner": "Frank",
-        "task": "Start SSO integration (SAML)",
+        "owner": "john.lavorato@enron.com",
+        "task": "Review Vince's analysis",
         "deadline": null
       }
     ],
-    "dependencies": [
-      {
-        "blocker": "Frank",
-        "blocked": "Eve",
-        "reason": "SSO integration not started"
-      }
-    ],
-    "sentiment": "positive",
-    "key_facts": [
-      "GlobalCorp wants a demo before launch",
-      "$50K annual contract potential",
-      "Feature requests: SSO integration (SAML), Role-based access control, Audit logging"
-    ],
-    "original_id": 10,
-    "timestamp": "2025-01-17T09:00:00",
-    "type": "email",
-    "subject": "New Enterprise Client Interest"
-  },
-  {
-    "sender": "eve@startup.com",
-    "recipients": [
-      "alice@startup.com",
-      "frank@startup.com"
-    ],
-    "topics": [
-      "enterprise leads",
-      "pre-launch demos",
-      "SSO implementation",
-      "Q2 revenue targets"
-    ],
-    "decisions": [],
-    "action_items": [
-      {
-        "owner": "frank@startup.com",
-        "task": "Determine realistic timeline for SSO implementation",
-        "deadline": null
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "frank@startup.com",
-        "blocked": "eve@startup.com",
-        "reason": "SSO implementation timeline needed for enterprise leads"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "TechVentures and DataFlow want pre-launch demos",
-      "Combined potential ARR: $120K",
-      "All three leads need SSO"
-    ],
-    "original_id": 11,
-    "timestamp": "2025-01-17T14:00:00",
-    "type": "slack",
-    "subject": "Two More Enterprise Leads"
-  },
-  {
-    "sender": "alice@startup.com",
-    "recipients": [
-      "frank@startup.com",
-      "eve@startup.com"
-    ],
-    "topics": [
-      "enterprise client demands",
-      "launch timeline",
-      "SSO implementation"
-    ],
-    "decisions": [
-      "Frank to do a minimal SSO implementation (2 weeks) that covers SAML basics",
-      "Full SSO in v1.1 post-launch",
-      "Eve to set expectations with clients"
-    ],
-    "action_items": [
-      {
-        "owner": "Frank",
-        "task": "Implement minimal SSO covering SAML basics",
-        "deadline": "2025-02-01"
-      },
-      {
-        "owner": "Eve",
-        "task": "Set expectations with clients regarding SSO",
-        "deadline": "2025-01-25"
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Frank",
-        "blocked": "Eve",
-        "reason": "Eve needs to know the scope of SSO implementation to set client expectations"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Frank estimates SSO will take 3 weeks",
-      "Adding SSO could push launch past April 1",
-      "Risk: minimal SSO might not satisfy GlobalCorp's security requirements"
-    ],
-    "original_id": 12,
-    "timestamp": "2025-01-18T10:00:00",
-    "type": "meeting_notes",
-    "subject": "Enterprise Strategy Discussion"
-  },
-  {
-    "sender": "alice@startup.com",
-    "recipients": [
-      "bob@startup.com",
-      "carol@startup.com",
-      "dave@startup.com",
-      "eve@startup.com",
-      "frank@startup.com"
-    ],
-    "topics": [
-      "Launch date",
-      "SSO for enterprise clients",
-      "Marketing campaign",
-      "Enterprise clients pipeline",
-      "Landing page development",
-      "Runway and ARR goals"
-    ],
-    "decisions": [],
-    "action_items": [
-      {
-        "owner": "Frank",
-        "task": "Work on minimal SSO for enterprise clients",
-        "deadline": null
-      },
-      {
-        "owner": "Carol",
-        "task": "Prepare for marketing campaign",
-        "deadline": "2025-03-10"
-      },
-      {
-        "owner": "Dave",
-        "task": "Prepare for marketing campaign",
-        "deadline": "2025-03-10"
-      }
-    ],
-    "dependencies": [
-      {
-        "blocker": "Frank",
-        "blocked": "Bob",
-        "reason": "API specs needed for landing page"
-      }
-    ],
-    "sentiment": "urgent",
-    "key_facts": [
-      "Launch date is April 1",
-      "Marketing campaign starts March 10",
-      "Three enterprise clients in pipeline worth $120K ARR",
-      "Runway is 8 months",
-      "Need to hit $200K ARR by Q3"
-    ],
-    "original_id": 13,
-    "timestamp": "2025-01-19T09:00:00",
-    "type": "slack",
-    "subject": "Weekly Update from CEO"
-  },
-  {
-    "sender": "carol@startup.com",
-    "recipients": [
-      "dave@startup.com",
-      "alice@startup.com"
-    ],
-    "topics": [
-      "Campaign Strategy",
-      "Timeline",
-      "Budget Allocation",
-      "KPIs"
-    ],
-    "decisions": [],
-    "action_items": [],
     "dependencies": [],
     "sentiment": "neutral",
     "key_facts": [
-      "New timeline: March 10 start, April 1 launch",
-      "Phase 1: March 10-20, Teaser campaign on social media",
-      "Phase 2: March 20-31, Full campaign with paid ads, blog posts, email sequences",
-      "Phase 3: April 1-15, Launch week blitz",
-      "Budget allocation: Social ads $3,000, Content creation $2,000, Email marketing $1,500, Influencer partnerships $1,500",
-      "KPIs: 10,000 signups, 500 paid conversions in first month"
+      "Traders are operating within guidelines",
+      "Market fundamentals support current strategy",
+      "California situation will resolve with new generation capacity"
     ],
-    "original_id": 14,
-    "timestamp": "2025-01-20T11:00:00",
-    "type": "document",
-    "subject": "Campaign Strategy Deck - Updated"
+    "original_id": 5,
+    "timestamp": "2001-06-17T15:00:00",
+    "type": "email",
+    "subject": "RE: Risk Assessment - California Energy Market"
   },
   {
-    "sender": "frank@startup.com",
+    "sender": "sherron.watkins@enron.com",
     "recipients": [
-      "bob@startup.com"
+      "kenneth.lay@enron.com"
     ],
     "topics": [
-      "API specs",
-      "pricing endpoint",
-      "webhook spec",
-      "subscription changes",
-      "Stripe webhook issue"
+      "accounting scandals",
+      "Raptor structures",
+      "related-party transactions",
+      "LJM",
+      "SEC filing"
     ],
     "decisions": [],
-    "action_items": [],
+    "action_items": [
+      {
+        "owner": "Kenneth Lay",
+        "task": "Conduct an independent review of Raptor structures and related-party transactions",
+        "deadline": "Before next SEC filing"
+      }
+    ],
     "dependencies": [],
     "sentiment": "urgent",
     "key_facts": [
-      "Endpoint: GET /api/v1/pricing",
-      "Returns JSON with plan tiers, features, and pricing"
+      "Raptor structures not performing as intended",
+      "Related-party transactions with LJM need closer scrutiny"
     ],
-    "original_id": 15,
-    "timestamp": "2025-01-20T16:00:00",
+    "original_id": 6,
+    "timestamp": "2001-08-15T09:00:00",
     "type": "email",
-    "subject": "API Specs for Pricing Page"
+    "subject": "Accounting Concerns"
+  },
+  {
+    "sender": "kenneth.lay@enron.com",
+    "recipients": [
+      "james.derrick@enron.com",
+      "andrew.fastow@enron.com"
+    ],
+    "topics": [
+      "Accounting Concerns",
+      "Raptor Structures",
+      "LJM Structures",
+      "Confidentiality"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "james.derrick@enron.com",
+        "task": "Review the attached concerns raised by Sherron Watkins",
+        "deadline": null
+      },
+      {
+        "owner": "andrew.fastow@enron.com",
+        "task": "Prepare a detailed response to each of Sherron Watkins' points",
+        "deadline": null
+      },
+      {
+        "owner": "kenneth.lay@enron.com",
+        "task": "Schedule a meeting for next Monday to discuss",
+        "deadline": null
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [],
+    "original_id": 7,
+    "timestamp": "2001-08-16T08:00:00",
+    "type": "email",
+    "subject": "FW: Accounting Concerns - Please Review"
+  },
+  {
+    "sender": "rebecca.mark@enron.com",
+    "recipients": [
+      "jeff.skilling@enron.com",
+      "kenneth.lay@enron.com"
+    ],
+    "topics": [
+      "Buenos Aires water concession underperformance",
+      "UK operations stability",
+      "Capital injection requirement",
+      "Strategic options for Buenos Aires asset"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Rebecca Mark",
+        "task": "Consider strategic options including potential sale of Buenos Aires asset",
+        "deadline": null
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Buenos Aires revenue 30% below projections",
+      "Need additional $200M capital injection"
+    ],
+    "original_id": 8,
+    "timestamp": "2001-06-18T11:00:00",
+    "type": "email",
+    "subject": "Azurix International Operations Update"
+  },
+  {
+    "sender": "john.lavorato@enron.com",
+    "recipients": [
+      "jeff.skilling@enron.com",
+      "greg.whalley@enron.com"
+    ],
+    "topics": [
+      "Natural gas trading revenue",
+      "Power trading in California",
+      "Regulatory risk",
+      "Crude oil desk loss",
+      "Credit rating concerns"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Tim",
+        "task": "Review the $12M loss on a bad hedge",
+        "deadline": null
+      },
+      {
+        "owner": "ExCo",
+        "task": "Discuss the credit situation",
+        "deadline": "Next ExCo meeting"
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "neutral",
+    "key_facts": [
+      "Natural gas trading revenue up 15% week over week",
+      "Crude oil desk had a $12M loss",
+      "Increased margin calls from counterparties"
+    ],
+    "original_id": 9,
+    "timestamp": "2001-06-19T16:00:00",
+    "type": "email",
+    "subject": "Trading Floor Update - Weekly"
+  },
+  {
+    "sender": "greg.whalley@enron.com",
+    "recipients": [
+      "kenneth.lay@enron.com",
+      "jeff.skilling@enron.com",
+      "andrew.fastow@enron.com"
+    ],
+    "topics": [
+      "Credit rating review by Moody's",
+      "Off-balance-sheet obligations in SPEs",
+      "Declining stock price affecting Raptor triggers",
+      "California regulatory exposure",
+      "Azurix write-down potential"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Andrew Fastow",
+        "task": "Present a clear picture of actual financial obligations",
+        "deadline": "Next week"
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [
+      "A downgrade would trigger $3.9B in accelerated debt payments"
+    ],
+    "original_id": 10,
+    "timestamp": "2001-10-22T09:00:00",
+    "type": "email",
+    "subject": "Credit Rating Discussion - Urgent"
+  },
+  {
+    "sender": "andrew.fastow@enron.com",
+    "recipients": [
+      "greg.whalley@enron.com",
+      "ben.glisan@enron.com"
+    ],
+    "topics": [
+      "Credit Rating",
+      "SPE obligations",
+      "Stock price",
+      "Raptor restructuring",
+      "LJM transactions",
+      "Arthur Andersen"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Andrew Fastow",
+        "task": "Prepare presentation for Moody's",
+        "deadline": "2001-10-25"
+      },
+      {
+        "owner": "Ben Glisan",
+        "task": "Run scenarios for various stock price levels",
+        "deadline": null
+      },
+      {
+        "owner": "Andrew Fastow",
+        "task": "Work with Arthur Andersen on LJM transactions restatement",
+        "deadline": null
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Stock needs to stay above $30",
+      "Raptor restructuring done in Q3",
+      "Draft ready by Thursday"
+    ],
+    "original_id": 11,
+    "timestamp": "2001-10-22T14:00:00",
+    "type": "email",
+    "subject": "RE: Credit Rating Discussion - Urgent"
+  },
+  {
+    "sender": "jeff.skilling@enron.com",
+    "recipients": [
+      "kenneth.lay@enron.com"
+    ],
+    "topics": [
+      "resignation",
+      "transition",
+      "interim leadership"
+    ],
+    "decisions": [
+      "Jeff Skilling resigns as CEO"
+    ],
+    "action_items": [
+      {
+        "owner": "Jeff Skilling",
+        "task": "Assist with the transition",
+        "deadline": null
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "neutral",
+    "key_facts": [
+      "Jeff Skilling resigns effective immediately",
+      "Greg Whalley or Andy Fastow recommended for interim leadership"
+    ],
+    "original_id": 12,
+    "timestamp": "2001-08-14T07:00:00",
+    "type": "email",
+    "subject": "Personal - Resignation"
   }
 ]
