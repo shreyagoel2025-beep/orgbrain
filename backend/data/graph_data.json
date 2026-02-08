@@ -1,0 +1,1121 @@
+{
+  "nodes": [
+    {
+      "id": "alice@startup.com",
+      "type": "person",
+      "messages_sent": 4
+    },
+    {
+      "id": "bob@startup.com",
+      "type": "person",
+      "messages_sent": 2
+    },
+    {
+      "id": "carol@startup.com",
+      "type": "person",
+      "messages_sent": 3
+    },
+    {
+      "id": "product launch",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "marketing campaign",
+      "type": "topic",
+      "mention_count": 3
+    },
+    {
+      "id": "landing page",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "product spec document",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Marketing",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Start the campaign",
+      "type": "action_item",
+      "owner": "Marketing",
+      "deadline": "2025-02-20"
+    },
+    {
+      "id": "Bob",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Finalize the landing page",
+      "type": "action_item",
+      "owner": "Bob",
+      "deadline": "2025-02-25"
+    },
+    {
+      "id": "final copy",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "api specs",
+      "type": "topic",
+      "mention_count": 3
+    },
+    {
+      "id": "pricing calculator",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Complete landing page",
+      "type": "action_item",
+      "owner": "Bob",
+      "deadline": "2025-02-25"
+    },
+    {
+      "id": "dave@startup.com",
+      "type": "person",
+      "messages_sent": 1
+    },
+    {
+      "id": "campaign strategy for product launch",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "social media push",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "budget concerns",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "Dave",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Prepare content calendar",
+      "type": "action_item",
+      "owner": "Dave",
+      "deadline": "2025-01-20"
+    },
+    {
+      "id": "Carol",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Finalize ad creatives",
+      "type": "action_item",
+      "owner": "Carol",
+      "deadline": "2025-01-25"
+    },
+    {
+      "id": "campaign copy",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "shared drive folder",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "launch date",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "content calendar",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "task: Confirm launch date with Alice",
+      "type": "action_item",
+      "owner": "Carol",
+      "deadline": null
+    },
+    {
+      "id": "eve@startup.com",
+      "type": "person",
+      "messages_sent": 3
+    },
+    {
+      "id": "frank@startup.com",
+      "type": "person",
+      "messages_sent": 2
+    },
+    {
+      "id": "client feedback on beta",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "payment flow testing",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "sso integration",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "ux rating",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "launch timeline",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "Frank",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Complete payment integration",
+      "type": "action_item",
+      "owner": "Frank",
+      "deadline": "2025-01-28"
+    },
+    {
+      "id": "payment integration",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "stripe api",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "engineering roadmap",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "engineering team",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Rewrite the handler for Stripe API webhook format",
+      "type": "action_item",
+      "owner": "engineering team",
+      "deadline": "2025-03-30"
+    },
+    {
+      "id": "launch date decision",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "budget",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "engineering timeline",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "client feedback",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Deliver final build",
+      "type": "action_item",
+      "owner": "Frank",
+      "deadline": "March 28"
+    },
+    {
+      "id": "task: Update landing page",
+      "type": "action_item",
+      "owner": "Bob",
+      "deadline": "March 25"
+    },
+    {
+      "id": "Eve",
+      "type": "person",
+      "messages_sent": 0
+    },
+    {
+      "id": "task: Notify beta clients of new timeline",
+      "type": "action_item",
+      "owner": "Eve",
+      "deadline": null
+    },
+    {
+      "id": "task: Revise campaign schedule",
+      "type": "action_item",
+      "owner": "Carol",
+      "deadline": null
+    },
+    {
+      "id": "task: Update content calendar",
+      "type": "action_item",
+      "owner": "Dave",
+      "deadline": null
+    },
+    {
+      "id": "campaign timeline",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "campaign strategy deck",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: revise the content calendar",
+      "type": "action_item",
+      "owner": "dave@startup.com",
+      "deadline": "2025-01-22"
+    },
+    {
+      "id": "task: update the Campaign Strategy Deck with new dates",
+      "type": "action_item",
+      "owner": "dave@startup.com",
+      "deadline": null
+    },
+    {
+      "id": "pricing page",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "calculator widget",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "/api/pricing endpoint",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Send final API specs for the pricing page",
+      "type": "action_item",
+      "owner": "frank@startup.com",
+      "deadline": "2025-01-20"
+    },
+    {
+      "id": "new enterprise client interest",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "demo request",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "feature requests",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "deal tracker",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Prioritize GlobalCorp's feature requests",
+      "type": "action_item",
+      "owner": "Eve",
+      "deadline": null
+    },
+    {
+      "id": "enterprise leads",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "pre-launch demos",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "sso implementation",
+      "type": "topic",
+      "mention_count": 2
+    },
+    {
+      "id": "q2 revenue targets",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Provide realistic timeline for SSO implementation",
+      "type": "action_item",
+      "owner": "frank@startup.com",
+      "deadline": null
+    },
+    {
+      "id": "enterprise client demands",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Implement minimal SSO covering SAML basics",
+      "type": "action_item",
+      "owner": "Frank",
+      "deadline": "2025-02-01"
+    },
+    {
+      "id": "task: Set expectations with clients regarding SSO",
+      "type": "action_item",
+      "owner": "Eve",
+      "deadline": "2025-01-25"
+    },
+    {
+      "id": "sso for enterprise clients",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "enterprise clients pipeline",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "landing page development",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "runway and arr goals",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Work on minimal SSO for enterprise clients",
+      "type": "action_item",
+      "owner": "Frank",
+      "deadline": null
+    },
+    {
+      "id": "task: Start marketing campaign",
+      "type": "action_item",
+      "owner": "Dave",
+      "deadline": "2025-03-10"
+    },
+    {
+      "id": "task: Prioritize API specs for Bob's landing page",
+      "type": "action_item",
+      "owner": "Frank",
+      "deadline": null
+    },
+    {
+      "id": "campaign strategy",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "timeline",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "budget allocation",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "kpis",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "task: Update Campaign Strategy Deck",
+      "type": "action_item",
+      "owner": "carol@startup.com",
+      "deadline": "2025-03-10"
+    },
+    {
+      "id": "pricing endpoint",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "webhook spec",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "subscription changes",
+      "type": "topic",
+      "mention_count": 1
+    },
+    {
+      "id": "stripe webhook issue",
+      "type": "topic",
+      "mention_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "alice@startup.com",
+      "target": "bob@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "carol@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "product launch",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "marketing campaign",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "landing page",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "product spec document",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "dave@startup.com",
+      "type": "communication",
+      "weight": 2
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "eve@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "frank@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "launch date decision",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "budget",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "engineering timeline",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "client feedback",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "enterprise client demands",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "launch timeline",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "sso implementation",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "launch date",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "sso for enterprise clients",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "enterprise clients pipeline",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "landing page development",
+      "type": "discusses"
+    },
+    {
+      "source": "alice@startup.com",
+      "target": "runway and arr goals",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "alice@startup.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "landing page",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "final copy",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "api specs",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "pricing calculator",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "frank@startup.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "pricing page",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "calculator widget",
+      "type": "discusses"
+    },
+    {
+      "source": "bob@startup.com",
+      "target": "/api/pricing endpoint",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "alice@startup.com",
+      "type": "communication",
+      "weight": 2
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "bob@startup.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "dave@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "campaign strategy for product launch",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "social media push",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "budget concerns",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "campaign timeline",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "content calendar",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "budget",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "campaign strategy deck",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "campaign strategy",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "timeline",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "budget allocation",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "kpis",
+      "type": "discusses"
+    },
+    {
+      "source": "carol@startup.com",
+      "target": "task: Update Campaign Strategy Deck",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Marketing",
+      "target": "task: Start the campaign",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Bob",
+      "target": "task: Finalize the landing page",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Bob",
+      "target": "task: Complete landing page",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Bob",
+      "target": "task: Update landing page",
+      "type": "assigned_to"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "carol@startup.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "campaign copy",
+      "type": "discusses"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "shared drive folder",
+      "type": "discusses"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "launch date",
+      "type": "discusses"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "content calendar",
+      "type": "discusses"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "task: revise the content calendar",
+      "type": "assigned_to"
+    },
+    {
+      "source": "dave@startup.com",
+      "target": "task: update the Campaign Strategy Deck with new dates",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Dave",
+      "target": "task: Prepare content calendar",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Dave",
+      "target": "task: Update content calendar",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Dave",
+      "target": "task: Start marketing campaign",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Carol",
+      "target": "task: Finalize ad creatives",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Carol",
+      "target": "task: Confirm launch date with Alice",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Carol",
+      "target": "task: Revise campaign schedule",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Carol",
+      "target": "task: Start marketing campaign",
+      "type": "assigned_to"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "alice@startup.com",
+      "type": "communication",
+      "weight": 3
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "frank@startup.com",
+      "type": "communication",
+      "weight": 2
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "client feedback on beta",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "payment flow testing",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "sso integration",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "ux rating",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "launch timeline",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "new enterprise client interest",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "demo request",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "feature requests",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "deal tracker",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "enterprise leads",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "pre-launch demos",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "sso implementation",
+      "type": "discusses"
+    },
+    {
+      "source": "eve@startup.com",
+      "target": "q2 revenue targets",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "alice@startup.com",
+      "type": "communication",
+      "weight": 1
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "bob@startup.com",
+      "type": "communication",
+      "weight": 2
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "payment integration",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "stripe api",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "engineering roadmap",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "task: Send final API specs for the pricing page",
+      "type": "assigned_to"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "task: Provide realistic timeline for SSO implementation",
+      "type": "assigned_to"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "api specs",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "pricing endpoint",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "webhook spec",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "subscription changes",
+      "type": "discusses"
+    },
+    {
+      "source": "frank@startup.com",
+      "target": "stripe webhook issue",
+      "type": "discusses"
+    },
+    {
+      "source": "Frank",
+      "target": "task: Complete payment integration",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Frank",
+      "target": "task: Deliver final build",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Frank",
+      "target": "task: Implement minimal SSO covering SAML basics",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Frank",
+      "target": "task: Work on minimal SSO for enterprise clients",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Frank",
+      "target": "task: Prioritize API specs for Bob's landing page",
+      "type": "assigned_to"
+    },
+    {
+      "source": "engineering team",
+      "target": "task: Rewrite the handler for Stripe API webhook format",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Eve",
+      "target": "task: Notify beta clients of new timeline",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Eve",
+      "target": "task: Prioritize GlobalCorp's feature requests",
+      "type": "assigned_to"
+    },
+    {
+      "source": "Eve",
+      "target": "task: Set expectations with clients regarding SSO",
+      "type": "assigned_to"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Product launch date confirmed for March 15",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-10T09:00:00",
+      "subject": "Product Launch Date Confirmed"
+    },
+    {
+      "decision": "Total marketing budget is $8,000",
+      "made_by": "carol@startup.com",
+      "timestamp": "2025-01-12T11:00:00",
+      "subject": "Marketing Sync Meeting"
+    },
+    {
+      "decision": "Push launch to April to address payment issues",
+      "made_by": "eve@startup.com",
+      "timestamp": "2025-01-14T10:00:00",
+      "subject": "Client Feedback on Beta"
+    },
+    {
+      "decision": "Launch date moved from March 15 to April 1",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-15T09:00:00",
+      "subject": "All Hands - Launch Date Decision"
+    },
+    {
+      "decision": "Marketing campaign start date adjusted to March 10",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-15T09:00:00",
+      "subject": "All Hands - Launch Date Decision"
+    },
+    {
+      "decision": "Budget remains $8,000",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-15T09:00:00",
+      "subject": "All Hands - Launch Date Decision"
+    },
+    {
+      "decision": "campaign start date changed to March 10",
+      "made_by": "carol@startup.com",
+      "timestamp": "2025-01-15T14:00:00",
+      "subject": "Updated Campaign Timeline"
+    },
+    {
+      "decision": "budget confirmed at $8,000",
+      "made_by": "carol@startup.com",
+      "timestamp": "2025-01-15T14:00:00",
+      "subject": "Updated Campaign Timeline"
+    },
+    {
+      "decision": "Frank to do a minimal SSO implementation (2 weeks) that covers SAML basics",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-18T10:00:00",
+      "subject": "Enterprise Strategy Discussion"
+    },
+    {
+      "decision": "Full SSO in v1.1 post-launch",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-18T10:00:00",
+      "subject": "Enterprise Strategy Discussion"
+    },
+    {
+      "decision": "Eve to set expectations with clients",
+      "made_by": "alice@startup.com",
+      "timestamp": "2025-01-18T10:00:00",
+      "subject": "Enterprise Strategy Discussion"
+    }
+  ],
+  "dependencies": [
+    {
+      "blocker": "Dave",
+      "blocked": "Bob",
+      "reason": "Waiting on final copy",
+      "timestamp": "2025-01-10T14:30:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Bob",
+      "reason": "Need API specs for pricing calculator",
+      "timestamp": "2025-01-10T14:30:00"
+    },
+    {
+      "blocker": "Alice",
+      "blocked": "Dave and Carol",
+      "reason": "Confirmation of launch date",
+      "timestamp": "2025-01-13T16:00:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Launch",
+      "reason": "Needs two more weeks for payment integration",
+      "timestamp": "2025-01-14T10:00:00"
+    },
+    {
+      "blocker": "engineering",
+      "blocked": "launch date",
+      "reason": "further blockers",
+      "timestamp": "2025-01-15T09:00:00"
+    },
+    {
+      "blocker": "frank@startup.com",
+      "blocked": "bob@startup.com",
+      "reason": "Landing page is blocked until API specs are received",
+      "timestamp": "2025-01-16T10:00:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Eve",
+      "reason": "SSO integration not started",
+      "timestamp": "2025-01-17T09:00:00"
+    },
+    {
+      "blocker": "frank@startup.com",
+      "blocked": "eve@startup.com",
+      "reason": "SSO implementation timeline needed for enterprise leads",
+      "timestamp": "2025-01-17T14:00:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Eve",
+      "reason": "Eve needs to know the scope of SSO implementation to set client expectations",
+      "timestamp": "2025-01-18T10:00:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Bob",
+      "reason": "API specs for landing page",
+      "timestamp": "2025-01-19T09:00:00"
+    },
+    {
+      "blocker": "Frank",
+      "blocked": "Bob",
+      "reason": "Delay due to Stripe webhook issue",
+      "timestamp": "2025-01-20T16:00:00"
+    }
+  ]
+}

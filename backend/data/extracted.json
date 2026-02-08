@@ -1,0 +1,617 @@
+[
+  {
+    "sender": "alice@startup.com",
+    "recipients": [
+      "bob@startup.com",
+      "carol@startup.com"
+    ],
+    "topics": [
+      "product launch",
+      "marketing campaign",
+      "landing page",
+      "product spec document"
+    ],
+    "decisions": [
+      "Product launch date confirmed for March 15"
+    ],
+    "action_items": [
+      {
+        "owner": "Marketing",
+        "task": "Start the campaign",
+        "deadline": "2025-02-20"
+      },
+      {
+        "owner": "Bob",
+        "task": "Finalize the landing page",
+        "deadline": "2025-02-25"
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "neutral",
+    "key_facts": [
+      "Product launch date: March 15",
+      "Marketing campaign start date: Feb 20",
+      "Landing page deadline: Feb 25"
+    ],
+    "original_id": 1,
+    "timestamp": "2025-01-10T09:00:00",
+    "type": "email",
+    "subject": "Product Launch Date Confirmed"
+  },
+  {
+    "sender": "bob@startup.com",
+    "recipients": [
+      "alice@startup.com"
+    ],
+    "topics": [
+      "landing page",
+      "final copy",
+      "API specs",
+      "pricing calculator"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Bob",
+        "task": "Complete landing page",
+        "deadline": "2025-02-25"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Dave",
+        "blocked": "Bob",
+        "reason": "Waiting on final copy"
+      },
+      {
+        "blocker": "Frank",
+        "blocked": "Bob",
+        "reason": "Need API specs for pricing calculator"
+      }
+    ],
+    "sentiment": "neutral",
+    "key_facts": [
+      "Landing page ready by Feb 25"
+    ],
+    "original_id": 2,
+    "timestamp": "2025-01-10T14:30:00",
+    "type": "slack",
+    "subject": "Landing Page Update"
+  },
+  {
+    "sender": "carol@startup.com",
+    "recipients": [
+      "alice@startup.com",
+      "bob@startup.com",
+      "dave@startup.com"
+    ],
+    "topics": [
+      "Campaign strategy for product launch",
+      "Social media push",
+      "Budget concerns"
+    ],
+    "decisions": [
+      "Total marketing budget is $8,000"
+    ],
+    "action_items": [
+      {
+        "owner": "Dave",
+        "task": "Prepare content calendar",
+        "deadline": "2025-01-20"
+      },
+      {
+        "owner": "Carol",
+        "task": "Finalize ad creatives",
+        "deadline": "2025-01-25"
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "neutral",
+    "key_facts": [
+      "Social media push starting Feb 15",
+      "Platforms: Instagram, LinkedIn, Twitter",
+      "Remaining Q1 marketing budget: $5,000",
+      "Additional $3,000 approved from reserves",
+      "Total marketing budget: $8,000"
+    ],
+    "original_id": 3,
+    "timestamp": "2025-01-12T11:00:00",
+    "type": "meeting_notes",
+    "subject": "Marketing Sync Meeting"
+  },
+  {
+    "sender": "dave@startup.com",
+    "recipients": [
+      "carol@startup.com"
+    ],
+    "topics": [
+      "campaign copy",
+      "shared Drive folder",
+      "launch date",
+      "content calendar"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Carol",
+        "task": "Confirm launch date with Alice",
+        "deadline": null
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Alice",
+        "blocked": "Dave and Carol",
+        "reason": "Confirmation of launch date"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Campaign copy is ready for all three platforms",
+      "Docs are in the shared Drive folder under /Marketing/Q1 Campaign/",
+      "Potential launch date change to April 1"
+    ],
+    "original_id": 4,
+    "timestamp": "2025-01-13T16:00:00",
+    "type": "slack",
+    "subject": "Campaign Copy Ready"
+  },
+  {
+    "sender": "eve@startup.com",
+    "recipients": [
+      "alice@startup.com",
+      "frank@startup.com"
+    ],
+    "topics": [
+      "client feedback",
+      "beta testing",
+      "payment flow",
+      "SSO integration",
+      "UX rating",
+      "launch timeline"
+    ],
+    "decisions": [
+      "push launch to April"
+    ],
+    "action_items": [
+      {
+        "owner": "Frank",
+        "task": "Address payment integration issues",
+        "deadline": "2025-01-28"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Frank",
+        "blocked": "Launch",
+        "reason": "Payment integration needs more testing"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Three major clients tested the beta",
+      "Clients: GlobalCorp, TechVentures, DataFlow Inc",
+      "Payment flow needs more testing",
+      "SSO integration is a must-have",
+      "Overall UX rated 4.2/5",
+      "Frank needs two more weeks for payment integration"
+    ],
+    "original_id": 5,
+    "timestamp": "2025-01-14T10:00:00",
+    "type": "email",
+    "subject": "Client Feedback on Beta"
+  },
+  {
+    "sender": "frank@startup.com",
+    "recipients": [
+      "alice@startup.com",
+      "bob@startup.com"
+    ],
+    "topics": [
+      "Payment integration",
+      "Stripe API",
+      "Engineering roadmap"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Engineering team",
+        "task": "Rewrite the handler for Stripe API webhook format",
+        "deadline": "2025-03-30"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Stripe API",
+        "blocked": "Engineering team",
+        "reason": "Webhook format change"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Payment integration is behind schedule",
+      "Stripe API changed their webhook format",
+      "March 15 launch date is not feasible",
+      "Recommended new launch date is April 1"
+    ],
+    "original_id": 6,
+    "timestamp": "2025-01-14T15:00:00",
+    "type": "slack",
+    "subject": "Engineering Update"
+  },
+  {
+    "sender": "alice@startup.com",
+    "recipients": [
+      "bob@startup.com",
+      "carol@startup.com",
+      "dave@startup.com",
+      "eve@startup.com",
+      "frank@startup.com"
+    ],
+    "topics": [
+      "Launch date decision",
+      "Marketing campaign adjustment",
+      "Budget confirmation",
+      "Final build delivery",
+      "Client notification",
+      "Campaign schedule revision",
+      "Content calendar update"
+    ],
+    "decisions": [
+      "Launch date moved from March 15 to April 1",
+      "Marketing campaign start date adjusted to March 10",
+      "Budget remains $8,000"
+    ],
+    "action_items": [
+      {
+        "owner": "Frank",
+        "task": "Deliver final build",
+        "deadline": "2025-03-28"
+      },
+      {
+        "owner": "Bob",
+        "task": "Update landing page",
+        "deadline": "2025-03-25"
+      },
+      {
+        "owner": "Eve",
+        "task": "Notify beta clients of new timeline",
+        "deadline": null
+      },
+      {
+        "owner": "Carol",
+        "task": "Revise campaign schedule",
+        "deadline": null
+      },
+      {
+        "owner": "Dave",
+        "task": "Update content calendar",
+        "deadline": null
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Engineering",
+        "blocked": "Entire team",
+        "reason": "Further blockers in engineering"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Launch date moved to April 1",
+      "Marketing campaign starts March 10",
+      "Budget is $8,000",
+      "Final build due March 28",
+      "Landing page update due March 25"
+    ],
+    "original_id": 7,
+    "timestamp": "2025-01-15T09:00:00",
+    "type": "meeting_notes",
+    "subject": "All Hands - Launch Date Decision"
+  },
+  {
+    "sender": "carol@startup.com",
+    "recipients": [
+      "dave@startup.com"
+    ],
+    "topics": [
+      "campaign timeline",
+      "content calendar",
+      "budget",
+      "Campaign Strategy Deck"
+    ],
+    "decisions": [
+      "campaign start date changed to March 10",
+      "budget confirmed at $8,000"
+    ],
+    "action_items": [
+      {
+        "owner": "dave@startup.com",
+        "task": "revise the content calendar",
+        "deadline": "2025-01-22"
+      },
+      {
+        "owner": "dave@startup.com",
+        "task": "update the Campaign Strategy Deck with new dates",
+        "deadline": null
+      }
+    ],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [
+      "campaign starts March 10",
+      "budget is $8,000",
+      "revised calendar due by Jan 22"
+    ],
+    "original_id": 8,
+    "timestamp": "2025-01-15T14:00:00",
+    "type": "email",
+    "subject": "Updated Campaign Timeline"
+  },
+  {
+    "sender": "bob@startup.com",
+    "recipients": [
+      "frank@startup.com"
+    ],
+    "topics": [
+      "API specs",
+      "pricing page",
+      "calculator widget",
+      "/api/pricing endpoint",
+      "landing page"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "frank@startup.com",
+        "task": "Send final API specs for the pricing page",
+        "deadline": "2025-01-20"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "frank@startup.com",
+        "blocked": "bob@startup.com",
+        "reason": "Landing page is blocked until API specs are received"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [],
+    "original_id": 9,
+    "timestamp": "2025-01-16T10:00:00",
+    "type": "slack",
+    "subject": "API Specs Needed"
+  },
+  {
+    "sender": "eve@startup.com",
+    "recipients": [
+      "alice@startup.com"
+    ],
+    "topics": [
+      "New Enterprise Client Interest",
+      "Demo Request",
+      "Feature Requests",
+      "Deal Tracker"
+    ],
+    "decisions": [
+      "Prioritize GlobalCorp's feature requests"
+    ],
+    "action_items": [
+      {
+        "owner": "Frank",
+        "task": "Start SSO integration (SAML)",
+        "deadline": null
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Frank",
+        "blocked": "Eve",
+        "reason": "SSO integration not started"
+      }
+    ],
+    "sentiment": "positive",
+    "key_facts": [
+      "GlobalCorp wants a demo before launch",
+      "$50K annual contract potential",
+      "Feature requests: SSO integration (SAML), Role-based access control, Audit logging"
+    ],
+    "original_id": 10,
+    "timestamp": "2025-01-17T09:00:00",
+    "type": "email",
+    "subject": "New Enterprise Client Interest"
+  },
+  {
+    "sender": "eve@startup.com",
+    "recipients": [
+      "alice@startup.com",
+      "frank@startup.com"
+    ],
+    "topics": [
+      "enterprise leads",
+      "pre-launch demos",
+      "SSO implementation",
+      "Q2 revenue targets"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "frank@startup.com",
+        "task": "Determine realistic timeline for SSO implementation",
+        "deadline": null
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "frank@startup.com",
+        "blocked": "eve@startup.com",
+        "reason": "SSO implementation timeline needed for enterprise leads"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "TechVentures and DataFlow want pre-launch demos",
+      "Combined potential ARR: $120K",
+      "All three leads need SSO"
+    ],
+    "original_id": 11,
+    "timestamp": "2025-01-17T14:00:00",
+    "type": "slack",
+    "subject": "Two More Enterprise Leads"
+  },
+  {
+    "sender": "alice@startup.com",
+    "recipients": [
+      "frank@startup.com",
+      "eve@startup.com"
+    ],
+    "topics": [
+      "enterprise client demands",
+      "launch timeline",
+      "SSO implementation"
+    ],
+    "decisions": [
+      "Frank to do a minimal SSO implementation (2 weeks) that covers SAML basics",
+      "Full SSO in v1.1 post-launch",
+      "Eve to set expectations with clients"
+    ],
+    "action_items": [
+      {
+        "owner": "Frank",
+        "task": "Implement minimal SSO covering SAML basics",
+        "deadline": "2025-02-01"
+      },
+      {
+        "owner": "Eve",
+        "task": "Set expectations with clients regarding SSO",
+        "deadline": "2025-01-25"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Frank",
+        "blocked": "Eve",
+        "reason": "Eve needs to know the scope of SSO implementation to set client expectations"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Frank estimates SSO will take 3 weeks",
+      "Adding SSO could push launch past April 1",
+      "Risk: minimal SSO might not satisfy GlobalCorp's security requirements"
+    ],
+    "original_id": 12,
+    "timestamp": "2025-01-18T10:00:00",
+    "type": "meeting_notes",
+    "subject": "Enterprise Strategy Discussion"
+  },
+  {
+    "sender": "alice@startup.com",
+    "recipients": [
+      "bob@startup.com",
+      "carol@startup.com",
+      "dave@startup.com",
+      "eve@startup.com",
+      "frank@startup.com"
+    ],
+    "topics": [
+      "Launch date",
+      "SSO for enterprise clients",
+      "Marketing campaign",
+      "Enterprise clients pipeline",
+      "Landing page development",
+      "Runway and ARR goals"
+    ],
+    "decisions": [],
+    "action_items": [
+      {
+        "owner": "Frank",
+        "task": "Work on minimal SSO for enterprise clients",
+        "deadline": null
+      },
+      {
+        "owner": "Carol",
+        "task": "Prepare for marketing campaign",
+        "deadline": "2025-03-10"
+      },
+      {
+        "owner": "Dave",
+        "task": "Prepare for marketing campaign",
+        "deadline": "2025-03-10"
+      }
+    ],
+    "dependencies": [
+      {
+        "blocker": "Frank",
+        "blocked": "Bob",
+        "reason": "API specs needed for landing page"
+      }
+    ],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Launch date is April 1",
+      "Marketing campaign starts March 10",
+      "Three enterprise clients in pipeline worth $120K ARR",
+      "Runway is 8 months",
+      "Need to hit $200K ARR by Q3"
+    ],
+    "original_id": 13,
+    "timestamp": "2025-01-19T09:00:00",
+    "type": "slack",
+    "subject": "Weekly Update from CEO"
+  },
+  {
+    "sender": "carol@startup.com",
+    "recipients": [
+      "dave@startup.com",
+      "alice@startup.com"
+    ],
+    "topics": [
+      "Campaign Strategy",
+      "Timeline",
+      "Budget Allocation",
+      "KPIs"
+    ],
+    "decisions": [],
+    "action_items": [],
+    "dependencies": [],
+    "sentiment": "neutral",
+    "key_facts": [
+      "New timeline: March 10 start, April 1 launch",
+      "Phase 1: March 10-20, Teaser campaign on social media",
+      "Phase 2: March 20-31, Full campaign with paid ads, blog posts, email sequences",
+      "Phase 3: April 1-15, Launch week blitz",
+      "Budget allocation: Social ads $3,000, Content creation $2,000, Email marketing $1,500, Influencer partnerships $1,500",
+      "KPIs: 10,000 signups, 500 paid conversions in first month"
+    ],
+    "original_id": 14,
+    "timestamp": "2025-01-20T11:00:00",
+    "type": "document",
+    "subject": "Campaign Strategy Deck - Updated"
+  },
+  {
+    "sender": "frank@startup.com",
+    "recipients": [
+      "bob@startup.com"
+    ],
+    "topics": [
+      "API specs",
+      "pricing endpoint",
+      "webhook spec",
+      "subscription changes",
+      "Stripe webhook issue"
+    ],
+    "decisions": [],
+    "action_items": [],
+    "dependencies": [],
+    "sentiment": "urgent",
+    "key_facts": [
+      "Endpoint: GET /api/v1/pricing",
+      "Returns JSON with plan tiers, features, and pricing"
+    ],
+    "original_id": 15,
+    "timestamp": "2025-01-20T16:00:00",
+    "type": "email",
+    "subject": "API Specs for Pricing Page"
+  }
+]

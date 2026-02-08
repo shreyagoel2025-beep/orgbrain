@@ -1,0 +1,53 @@
+[
+  {
+    "type": "conflict",
+    "severity": "high",
+    "description": "Contradictory decisions on the product launch date. Initially set for March 15, then pushed to April 1.",
+    "people_involved": [
+      "alice@startup.com",
+      "eve@startup.com"
+    ],
+    "recommendation": "Confirm the final launch date and communicate it clearly to all stakeholders."
+  },
+  {
+    "type": "bottleneck",
+    "severity": "high",
+    "description": "Frank is blocking multiple tasks, including API specs for Bob, SSO integration for Eve, and payment integration for the launch.",
+    "people_involved": [
+      "frank@startup.com",
+      "bob@startup.com",
+      "eve@startup.com"
+    ],
+    "recommendation": "Prioritize Frank's tasks and allocate additional resources to alleviate the bottleneck."
+  },
+  {
+    "type": "risk",
+    "severity": "medium",
+    "description": "Marketing campaign is set to start on March 10, but the launch is delayed to April 1. This could lead to wasted marketing efforts.",
+    "people_involved": [
+      "alice@startup.com",
+      "carol@startup.com"
+    ],
+    "recommendation": "Re-evaluate the marketing campaign timeline to align with the new launch date."
+  },
+  {
+    "type": "info_gap",
+    "severity": "medium",
+    "description": "Eve needs to set client expectations but is blocked by Frank due to lack of SSO implementation details.",
+    "people_involved": [
+      "eve@startup.com",
+      "frank@startup.com"
+    ],
+    "recommendation": "Provide Eve with the necessary SSO implementation timeline and scope details."
+  },
+  {
+    "type": "risk",
+    "severity": "medium",
+    "description": "The total marketing budget is $8,000, which may be insufficient given the extended timeline and potential additional marketing needs.",
+    "people_involved": [
+      "carol@startup.com",
+      "alice@startup.com"
+    ],
+    "recommendation": "Review the marketing budget to ensure it is adequate for the revised launch timeline."
+  }
+]
